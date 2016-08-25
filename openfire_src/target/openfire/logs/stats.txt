@@ -1,0 +1,15 @@
+Tue Aug 23 12:44:36 EDT 2016
+Timestamp, DB min, DB max, DB current, DB used, Core Threads, Active Threads, Queue Tasks, Completed Tasks, Sessions, NIO Read, NIO Written, Queued NIO events, Queues NIO writes
+1471970616377,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970621376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970626377,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970631376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970636376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970641376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970646376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970651376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970656376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970661376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970666376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,0,0,0,0,0
+1471970671377,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,1,0,0,0,0
+1471970676376,org.jivesoftware.database.EmbeddedConnectionProvider@395a6ce8,5,0,-1,12,1,0,0,0,0

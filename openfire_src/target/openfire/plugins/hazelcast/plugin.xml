@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>org.jivesoftware.openfire.plugin.HazelcastPlugin</class>
+    <name>${plugin.name}</name>
+    <description>${plugin.description}</description>
+    <author>Tom Evans</author>
+    <version>2.2.0</version>
+    <date>10/12/2015</date>
+    <minServerVersion>4.0.0</minServerVersion>
+</plugin>
