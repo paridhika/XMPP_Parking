@@ -41,15 +41,20 @@ public class XMPPOpenfireConnection {
 	 */
 	public static void main(String[] args) throws SmackException, IOException, XMPPException, InterruptedException {
 		double mean = 1;
-		PoissonDistribution p = new PoissonDistribution(mean);
-		long wait = p.sample();	
-		int i = 1;
-		while (i < 5) {
-			Thread t = new Thread(new clientsThread(i));
-			t.start();
-			i++;
-			Thread.sleep(wait);
-			wait = p.sample();
+		int count = 50;
+		while (mean < 1000) {
+			PoissonDistribution p = new PoissonDistribution(mean);
+			long wait = p.sample();
+			int i = 1;
+			while (i < count) {
+				Thread t = new Thread(new clientsThread(i));
+				t.start();
+				i++;
+				Thread.sleep(wait);
+				wait = p.sample();
+			}
+			
+			mean *= 2;
 		}
 	}
 
@@ -57,7 +62,7 @@ public class XMPPOpenfireConnection {
 		private final ConnectionListener connectionListener = new AbstractConnectionListener();
 		private ChatManager chatmanager;
 		private Chat newChat;
-	
+
 		public clientsThread(int i) throws SmackException, IOException, XMPPException, InterruptedException {
 			this.i = i;
 		}
@@ -65,16 +70,13 @@ public class XMPPOpenfireConnection {
 		int i;
 
 		public void run() {
-			// Create a connection to the jabber.org server on a specific port.
 			XMPPTCPConnectionConfiguration config = null;
 
 			try {
 				config = XMPPTCPConnectionConfiguration.builder().setXmppDomain("paridhika-satellite-c55-c:9090")
 						.setHost("paridhika-satellite-c55-c").setPort(5222).setSecurityMode(SecurityMode.disabled)
-						// .addEnabledSaslMechanism(Sasl.SERVER_AUTH)
 						.setDebuggerEnabled(true).build();
 			} catch (XmppStringprepException e2) {
-				// TODO Auto-generated catch block
 				e2.printStackTrace();
 			}
 			AbstractXMPPConnection conn2 = new XMPPTCPConnection(config);
@@ -85,17 +87,16 @@ public class XMPPOpenfireConnection {
 				e1.printStackTrace();
 			}
 			conn2.addConnectionListener(connectionListener);
-			//System.out.println(conn2.isAuthenticated());
-		//	System.out.println(SASLAuthentication.getRegisterdSASLMechanisms().keySet());
-			//System.out.println(SASLAuthentication.getRegisterdSASLMechanisms().values());
+			// System.out.println(conn2.isAuthenticated());
+			// System.out.println(SASLAuthentication.getRegisterdSASLMechanisms().keySet());
+			// System.out.println(SASLAuthentication.getRegisterdSASLMechanisms().values());
 			// SASLAuthentication.registerSASLMechanism(Sasl.SERVER_AUTH,"TRUE");
 			// System.out.println(SASLAuthentication.isSaslMechanismRegistered("PLAIN"));
-			/*try {
-				conn2.login("test", "test");
-			} catch (XMPPException | SmackException | IOException | InterruptedException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}*/
+			/*
+			 * try { conn2.login("test", "test"); } catch (XMPPException |
+			 * SmackException | IOException | InterruptedException e1) { // TODO
+			 * Auto-generated catch block e1.printStackTrace(); }
+			 */
 			chatmanager = ChatManager.getInstanceFor(conn2);
 			EntityJid jid = null;
 			try {

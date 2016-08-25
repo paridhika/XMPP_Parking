@@ -21,6 +21,8 @@ package org.jivesoftware.openfire.net;
 
 import java.net.UnknownHostException;
 import java.util.ArrayList;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 import org.dom4j.Element;
 import org.jivesoftware.openfire.Connection;
@@ -53,6 +55,7 @@ public class ClientStanzaHandler extends StanzaHandler {
 
 	private static int SIZE = 10;
 	private static String[][] my_map = new String[SIZE][SIZE];
+	private final Lock lock = new ReentrantLock();
 
 	public ClientStanzaHandler(PacketRouter router, Connection connection) {
 		super(router, connection);
@@ -171,14 +174,22 @@ public class ClientStanzaHandler extends StanzaHandler {
 		my_map[0][0] = packet.getTo().toString();
 		String body = packet.getBody();
 		if (body.contains("put")) {
+			lock.lock();
 			String location = findLocation();
+			lock.unlock();
 			packet.setBody(location);
 		} else if (body.contains("delete")) {
+			lock.lock();
 			deleteLocation();
+			lock.unlock();
 		} else if (body.contains("get")) {
-				findLocation();	
+			lock.lock();
+			findLocation();
+			lock.unlock();
 		}
+		lock.lock();
 		printMap();
+		lock.unlock();
 	}
 
 	@Override
