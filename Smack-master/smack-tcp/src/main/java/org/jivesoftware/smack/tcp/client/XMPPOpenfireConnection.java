@@ -1,35 +1,19 @@
 package org.jivesoftware.smack.tcp.client;
 
 import java.io.IOException;
-import java.util.List;
-
-import javax.security.sasl.Sasl;
-
 import org.apache.commons.math3.distribution.PoissonDistribution;
 import org.jivesoftware.smack.AbstractConnectionListener;
-import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
 import org.jivesoftware.smack.ConnectionListener;
 import org.jivesoftware.smack.PacketCollector;
-import org.jivesoftware.smack.SASLAuthentication;
 import org.jivesoftware.smack.SmackException;
 import org.jivesoftware.smack.SmackException.NotConnectedException;
 import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.chat.Chat;
-import org.jivesoftware.smack.chat.ChatManager;
-import org.jivesoftware.smack.chat.ChatMessageListener;
 import org.jivesoftware.smack.filter.MessageTypeFilter;
 import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.packet.Stanza;
-import org.jivesoftware.smack.sasl.SASLMechanism;
 import org.jivesoftware.smack.tcp.XMPPTCPConnection;
 import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jivesoftware.smack.test.util.WaitForPacketListener;
-import org.jivesoftware.smack.util.DNSUtil;
-import org.jivesoftware.smack.util.dns.HostAddress;
 import org.jxmpp.jid.EntityJid;
-import org.jxmpp.jid.Jid;
 import org.jxmpp.jid.impl.JidCreate;
 import org.jxmpp.stringprep.XmppStringprepException;
 
@@ -48,12 +32,13 @@ public class XMPPOpenfireConnection {
 	 */
 	public static void main(String[] args) throws SmackException, IOException, XMPPException, InterruptedException {
 		double mean = 1;
-		int count = 5;
+		int count = 2;
 		while (mean < 2) {
 			PoissonDistribution p = new PoissonDistribution(mean);
 			long wait = p.sample();
 			int i = 1;
 			while (i < count) {
+				System.out.println("Looping again");
 				Thread t = new Thread(new clientsThread(i));
 				t.start();
 				i++;
@@ -66,8 +51,6 @@ public class XMPPOpenfireConnection {
 
 	public static class clientsThread implements Runnable {
 		private final ConnectionListener connectionListener = new AbstractConnectionListener();
-		private ChatManager chatmanager;
-		private Chat newChat;
 
 		public clientsThread(int i) throws SmackException, IOException, XMPPException, InterruptedException {
 			this.i = i;
@@ -92,8 +75,14 @@ public class XMPPOpenfireConnection {
 			} catch (SmackException | IOException | XMPPException | InterruptedException e1) {
 				e1.printStackTrace();
 			}
+			try {
+				conn2.login("test", "test");
+			} catch (XMPPException | SmackException | IOException | InterruptedException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
+			}
 			conn2.addConnectionListener(connectionListener);
-			PacketCollector collector = conn2.createPacketCollector(new MessageTypeFilter(Message.Type.error));
+			PacketCollector collector = conn2.createPacketCollector(new MessageTypeFilter(Message.Type.chat));
 			EntityJid jid = null;
 			try {
 				jid = (EntityJid) JidCreate.from("client" + i + "@paridhika-satellite-c55-c");
@@ -113,7 +102,8 @@ public class XMPPOpenfireConnection {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("Received Stanza " + rcv.getBody());
+	//		System.out.println("Received Stanza " + rcv.getBody());
+			conn2.disconnect();
 		}
 	}
 }

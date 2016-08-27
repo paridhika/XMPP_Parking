@@ -19,26 +19,15 @@
 
 package org.jivesoftware.openfire.net;
 
-import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
 import org.dom4j.Element;
 import org.jivesoftware.openfire.Connection;
 import org.jivesoftware.openfire.PacketRouter;
 import org.jivesoftware.openfire.auth.UnauthorizedException;
 import org.jivesoftware.openfire.container.AdminConsolePlugin;
-import org.jivesoftware.openfire.session.ConnectionSettings;
 import org.jivesoftware.openfire.session.LocalClientSession;
-import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.util.JiveGlobals;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
-import org.xmpp.component.Component;
-import org.xmpp.component.ComponentException;
-import org.xmpp.component.ComponentManagerFactory;
-import org.xmpp.jnodes.smack.SmackServiceNode;
 import org.xmpp.packet.IQ;
 import org.xmpp.packet.Message;
 import org.xmpp.packet.Presence;
@@ -168,9 +157,6 @@ public class ClientStanzaHandler extends StanzaHandler {
 	}
 
 	private void parkingHandler(Message packet) {
-		long timeout = 3000;
-		SmackServiceNode  s1 = new SmackServiceNode ((XMPPConnection) connection, timeout);;
-		AdminConsolePlugin.getMap()[0][0] = packet.getTo().toString();
 		String body = packet.getBody();
 		if (body.contains("put")) {
 			String location;

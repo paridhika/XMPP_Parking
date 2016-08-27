@@ -39,7 +39,6 @@ import org.slf4j.LoggerFactory;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmpp.packet.*;
-
 import java.io.IOException;
 import java.io.StringReader;
 
@@ -375,7 +374,7 @@ public abstract class StanzaHandler {
      *          if service is not available to sender.
      */
     protected void processMessage(Message packet) throws UnauthorizedException {
-        router.route(packet);
+    	router.route(packet);
         session.incrementClientPacketCount();
     }
 

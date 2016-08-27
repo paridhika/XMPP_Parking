@@ -4,4 +4,6 @@ Smack for standard XMPP connections over TCP."""
 dependencies {
 	compile project(':smack-core')
 	testCompile project(path: ":smack-core", configuration: "testRuntime")
+	compile fileTree(dir: '../Jars/commons-math3-3.6.1', include: ['*.jar'])
+
 }
