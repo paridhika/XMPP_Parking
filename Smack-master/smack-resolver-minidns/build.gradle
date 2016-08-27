@@ -1,0 +1,10 @@
+description = """\
+DNS SRV with minidns
+Use minidns for DNS SRV lookups. For platforms that don't provide the
+javax.naming API (e.g. Android)."""
+
+dependencies {
+	compile project(path: ':smack-core')
+	compile 'de.measite.minidns:minidns:[0.1,0.2)'
+	compile "org.jxmpp:jxmpp-util-cache:$jxmppVersion"
+}

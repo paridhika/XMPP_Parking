@@ -1,0 +1,10 @@
+description = """\
+Smack legacy extensions.
+Usually XEPs in the state 'retracted', 'rejected', 'deprecated',
+'obsolete' or in a long standing 'deferred' state."""
+
+dependencies {
+	compile project(':smack-core')
+	compile project(':smack-extensions')
+	testCompile project(path: ":smack-core", configuration: "testRuntime")
+}

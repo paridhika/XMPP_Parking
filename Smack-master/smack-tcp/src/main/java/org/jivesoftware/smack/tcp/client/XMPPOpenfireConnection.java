@@ -86,14 +86,14 @@ public class XMPPOpenfireConnection {
 			} catch (XmppStringprepException e2) {
 				e2.printStackTrace();
 			}
-			AbstractXMPPConnection conn2 = new XMPPTCPConnection(config);
+			XMPPTCPConnection conn2 = new XMPPTCPConnection(config);
 			try {
 				conn2.connect();
 			} catch (SmackException | IOException | XMPPException | InterruptedException e1) {
 				e1.printStackTrace();
 			}
 			conn2.addConnectionListener(connectionListener);
-			PacketCollector collector = conn2.createPacketCollector(new MessageTypeFilter(Message.Type.chat));
+			PacketCollector collector = conn2.createPacketCollector(new MessageTypeFilter(Message.Type.error));
 			EntityJid jid = null;
 			try {
 				jid = (EntityJid) JidCreate.from("client" + i + "@paridhika-satellite-c55-c");
@@ -109,7 +109,7 @@ public class XMPPOpenfireConnection {
 			}
 			Message rcv = null;
 			try {
-				rcv = (Message) collector.nextResult(1000);
+				rcv = (Message) collector.nextResult();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

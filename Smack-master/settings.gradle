@@ -1,0 +1,26 @@
+// The name of the root project.
+// If we would not set the name, then gradle would use the directory
+// name of the root directory
+rootProject.name = 'Smack'
+
+include 'smack-core',
+		'smack-im',
+		'smack-tcp',
+		'smack-extensions',
+		'smack-experimental',
+		'smack-debug',
+		'smack-debug-slf4j',
+		'smack-resolver-dnsjava',
+		'smack-resolver-minidns',
+		'smack-resolver-javax',
+		'smack-sasl-javax',
+		'smack-sasl-provided',
+		'smack-compression-jzlib',
+		'smack-legacy',
+		'smack-jingle-old',
+		'smack-bosh',
+		'smack-android',
+		'smack-android-extensions',
+		'smack-java7',
+		'smack-integration-test',
+		'smack-repl'
