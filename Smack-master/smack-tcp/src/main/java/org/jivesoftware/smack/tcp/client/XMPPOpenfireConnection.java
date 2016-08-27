@@ -10,11 +10,18 @@ import org.jivesoftware.smack.AbstractConnectionListener;
 import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
 import org.jivesoftware.smack.ConnectionListener;
+import org.jivesoftware.smack.PacketCollector;
 import org.jivesoftware.smack.SASLAuthentication;
 import org.jivesoftware.smack.SmackException;
+import org.jivesoftware.smack.SmackException.NotConnectedException;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.chat.Chat;
 import org.jivesoftware.smack.chat.ChatManager;
+import org.jivesoftware.smack.chat.ChatMessageListener;
+import org.jivesoftware.smack.filter.MessageTypeFilter;
+import org.jivesoftware.smack.packet.Message;
+import org.jivesoftware.smack.packet.Presence;
+import org.jivesoftware.smack.packet.Stanza;
 import org.jivesoftware.smack.sasl.SASLMechanism;
 import org.jivesoftware.smack.tcp.XMPPTCPConnection;
 import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
@@ -41,8 +48,8 @@ public class XMPPOpenfireConnection {
 	 */
 	public static void main(String[] args) throws SmackException, IOException, XMPPException, InterruptedException {
 		double mean = 1;
-		int count = 50;
-		while (mean < 1000) {
+		int count = 5;
+		while (mean < 2) {
 			PoissonDistribution p = new PoissonDistribution(mean);
 			long wait = p.sample();
 			int i = 1;
@@ -52,8 +59,7 @@ public class XMPPOpenfireConnection {
 				i++;
 				Thread.sleep(wait);
 				wait = p.sample();
-			}
-			
+			}	
 			mean *= 2;
 		}
 	}
@@ -68,13 +74,14 @@ public class XMPPOpenfireConnection {
 		}
 
 		int i;
-
 		public void run() {
 			XMPPTCPConnectionConfiguration config = null;
-
 			try {
-				config = XMPPTCPConnectionConfiguration.builder().setXmppDomain("paridhika-satellite-c55-c:9090")
-						.setHost("paridhika-satellite-c55-c").setPort(5222).setSecurityMode(SecurityMode.disabled)
+				config = XMPPTCPConnectionConfiguration.builder()
+						.setXmppDomain("paridhika-satellite-c55-c:9090")
+						.setHost("paridhika-satellite-c55-c")
+						.setPort(5222)
+						.setSecurityMode(SecurityMode.disabled)
 						.setDebuggerEnabled(true).build();
 			} catch (XmppStringprepException e2) {
 				e2.printStackTrace();
@@ -83,39 +90,30 @@ public class XMPPOpenfireConnection {
 			try {
 				conn2.connect();
 			} catch (SmackException | IOException | XMPPException | InterruptedException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 			conn2.addConnectionListener(connectionListener);
-			// System.out.println(conn2.isAuthenticated());
-			// System.out.println(SASLAuthentication.getRegisterdSASLMechanisms().keySet());
-			// System.out.println(SASLAuthentication.getRegisterdSASLMechanisms().values());
-			// SASLAuthentication.registerSASLMechanism(Sasl.SERVER_AUTH,"TRUE");
-			// System.out.println(SASLAuthentication.isSaslMechanismRegistered("PLAIN"));
-			/*
-			 * try { conn2.login("test", "test"); } catch (XMPPException |
-			 * SmackException | IOException | InterruptedException e1) { // TODO
-			 * Auto-generated catch block e1.printStackTrace(); }
-			 */
-			chatmanager = ChatManager.getInstanceFor(conn2);
+			PacketCollector collector = conn2.createPacketCollector(new MessageTypeFilter(Message.Type.chat));
 			EntityJid jid = null;
 			try {
 				jid = (EntityJid) JidCreate.from("client" + i + "@paridhika-satellite-c55-c");
 			} catch (XmppStringprepException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			newChat = chatmanager.createChat(jid);
+			Message msg = new Message(jid, Message.Type.chat);	
+			msg.setBody("put");
 			try {
-				try {
-					newChat.sendMessage("Paridhika Kayal! from client put" + i);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			} catch (SmackException.NotConnectedException e) {
+				conn2.sendStanza(msg);
+			} catch (NotConnectedException | InterruptedException e) {
 				e.printStackTrace();
 			}
+			Message rcv = null;
+			try {
+				rcv = (Message) collector.nextResult(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			System.out.println("Received Stanza " + rcv.getBody());
 		}
 	}
 }

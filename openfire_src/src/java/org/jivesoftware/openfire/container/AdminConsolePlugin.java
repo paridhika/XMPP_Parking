@@ -69,7 +69,8 @@ import org.slf4j.LoggerFactory;
 public class AdminConsolePlugin implements Plugin {
 
     private static final Logger Log = LoggerFactory.getLogger(AdminConsolePlugin.class);
-
+    private static int SIZE = 10;
+	private static String[][] my_map = new String[SIZE][SIZE];
     /**
      * Random secret used by JVM to allow SSO. Only other cluster nodes can use this secret
      * as a way to integrate the admin consoles of each cluster node.
@@ -91,11 +92,22 @@ public class AdminConsolePlugin implements Plugin {
      */
     public AdminConsolePlugin() {
         contexts = new ContextHandlerCollection();
-        
+        initializeMap();
         // JSP 2.0 uses commons-logging, so also override that implementation.
         System.setProperty("org.apache.commons.logging.LogFactory", "org.jivesoftware.util.log.util.CommonsLogFactory");
     }
+    
+    private void initializeMap() {
+		for (int i = 0; i < SIZE; i++) {
+			for (int j = 0; j < SIZE; j++) {
+				my_map[i][j] = "EMPTY";
+			}
+		}
+	}
 
+    public static String[][] getMap(){
+    	return my_map;
+    }
     /**
      * Starts the Jetty instance.
      */

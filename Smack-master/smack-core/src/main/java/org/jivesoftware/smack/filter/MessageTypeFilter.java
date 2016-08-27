@@ -45,7 +45,7 @@ public final class MessageTypeFilter extends FlexibleStanzaTypeFilter<Message> {
      * 
      * @param type the message type.
      */
-    private MessageTypeFilter(Message.Type type) {
+    public MessageTypeFilter(Message.Type type) {
         super(Message.class);
         this.type = type;
     }

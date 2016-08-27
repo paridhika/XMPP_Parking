@@ -28,11 +28,17 @@ import org.dom4j.Element;
 import org.jivesoftware.openfire.Connection;
 import org.jivesoftware.openfire.PacketRouter;
 import org.jivesoftware.openfire.auth.UnauthorizedException;
+import org.jivesoftware.openfire.container.AdminConsolePlugin;
 import org.jivesoftware.openfire.session.ConnectionSettings;
 import org.jivesoftware.openfire.session.LocalClientSession;
+import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.util.JiveGlobals;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
+import org.xmpp.component.Component;
+import org.xmpp.component.ComponentException;
+import org.xmpp.component.ComponentManagerFactory;
+import org.xmpp.jnodes.smack.SmackServiceNode;
 import org.xmpp.packet.IQ;
 import org.xmpp.packet.Message;
 import org.xmpp.packet.Presence;
@@ -51,15 +57,13 @@ import org.xmpp.packet.Presence;
  *
  * @author Gaston Dombiak
  */
+
+
 public class ClientStanzaHandler extends StanzaHandler {
 
-	private static int SIZE = 10;
-	private static String[][] my_map = new String[SIZE][SIZE];
-	private final Lock lock = new ReentrantLock();
-
+	private int SIZE = 10;
 	public ClientStanzaHandler(PacketRouter router, Connection connection) {
 		super(router, connection);
-		initializeMap();
 	}
 
 	@Deprecated
@@ -67,19 +71,11 @@ public class ClientStanzaHandler extends StanzaHandler {
 		super(router, connection);
 	}
 
-	private void initializeMap() {
-		for (int i = 0; i < SIZE; i++) {
-			for (int j = 0; j < SIZE; j++) {
-				my_map[i][j] = "EMPTY";
-			}
-		}
-	}
-
 	private String findLocation() {
 		for (int i = 0; i < SIZE; i++) {
 			for (int j = 0; j < SIZE; j++) {
-				if (my_map[i][j].equals("EMPTY")) {
-					my_map[i][j] = "OCCUPIED";
+				if (AdminConsolePlugin.getMap()[i][j].equals("EMPTY")) {
+					AdminConsolePlugin.getMap()[i][j] = "OCCUPIED";
 					return i + " " + j;
 				}
 			}
@@ -90,8 +86,8 @@ public class ClientStanzaHandler extends StanzaHandler {
 	private void deleteLocation() {
 		for (int i = 0; i < SIZE; i++) {
 			for (int j = 0; j < SIZE; j++) {
-				if (my_map[i][j].equals("OCCUPIED")) {
-					my_map[i][j] = "EMPTY";
+				if (AdminConsolePlugin.getMap()[i][j].equals("OCCUPIED")) {
+					AdminConsolePlugin.getMap()[i][j] = "EMPTY";
 					return;
 				}
 			}
@@ -99,9 +95,10 @@ public class ClientStanzaHandler extends StanzaHandler {
 	}
 
 	private void printMap() {
+		System.out.println();
 		for (int i = 0; i < SIZE; i++) {
 			for (int j = 0; j < SIZE; j++)
-				System.out.print(my_map[i][j] + " ");
+				System.out.print(AdminConsolePlugin.getMap()[i][j] + " ");
 			System.out.println();
 		}
 	}
@@ -164,32 +161,35 @@ public class ClientStanzaHandler extends StanzaHandler {
 	@Override
 	protected void processMessage(Message packet) throws UnauthorizedException {
 		// Overwrite the FROM attribute to avoid spoofing
-		System.out.println("Client Stanza Handler for Paridhika");
 		packet.setFrom(session.getAddress());
+		packet.setTo(packet.getFrom());
 		parkingHandler(packet);
 		super.processMessage(packet);
 	}
 
 	private void parkingHandler(Message packet) {
-		my_map[0][0] = packet.getTo().toString();
+		long timeout = 3000;
+		SmackServiceNode  s1 = new SmackServiceNode ((XMPPConnection) connection, timeout);;
+		AdminConsolePlugin.getMap()[0][0] = packet.getTo().toString();
 		String body = packet.getBody();
 		if (body.contains("put")) {
-			lock.lock();
-			String location = findLocation();
-			lock.unlock();
+			String location;
+			synchronized(AdminConsolePlugin.getMap()) {
+				location = findLocation();
+			}
 			packet.setBody(location);
 		} else if (body.contains("delete")) {
-			lock.lock();
-			deleteLocation();
-			lock.unlock();
+			synchronized(AdminConsolePlugin.getMap()) {
+				deleteLocation();
+			}
 		} else if (body.contains("get")) {
-			lock.lock();
-			findLocation();
-			lock.unlock();
+			synchronized(AdminConsolePlugin.getMap()) {
+				findLocation();
+			}
 		}
-		lock.lock();
-		printMap();
-		lock.unlock();
+		synchronized(AdminConsolePlugin.getMap()) {
+			printMap();
+		}
 	}
 
 	@Override
