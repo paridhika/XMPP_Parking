@@ -71,15 +71,20 @@ public class ClientStanzaHandler extends StanzaHandler {
 		}
 		return null;
 	}
+	
+	private void putLocation(String location) {
+		int x = Integer.parseInt(location.substring(0, location.indexOf(',')));
+		int y = Integer.parseInt(location.substring(location.indexOf(',') + 1));
+		if (AdminConsolePlugin.getMap()[x][y].equals("EMPTY")) {
+			AdminConsolePlugin.getMap()[x][y] = "OCCUPIED";
+		}
+	}
 
-	private void deleteLocation() {
-		for (int i = 0; i < SIZE; i++) {
-			for (int j = 0; j < SIZE; j++) {
-				if (AdminConsolePlugin.getMap()[i][j].equals("OCCUPIED")) {
-					AdminConsolePlugin.getMap()[i][j] = "EMPTY";
-					return;
-				}
-			}
+	private void deleteLocation(String location) {
+		int x = Integer.parseInt(location.substring(0, location.indexOf(',')));
+		int y = Integer.parseInt(location.substring(location.indexOf(',') + 1));
+		if (AdminConsolePlugin.getMap()[x][y].equals("OCCUPIED")) {
+			AdminConsolePlugin.getMap()[x][y] = "EMPTY";
 		}
 	}
 
@@ -159,19 +164,19 @@ public class ClientStanzaHandler extends StanzaHandler {
 	private void parkingHandler(Message packet) {
 		String body = packet.getBody();
 		if (body.contains("put")) {
-			String location;
+			synchronized(AdminConsolePlugin.getMap()) {
+				putLocation(body.substring(4));
+			}
+		} else if (body.contains("delete")) {
+			synchronized(AdminConsolePlugin.getMap()) {
+				deleteLocation(body.substring(7));
+			}
+		} else if (body.contains("get")) {
+			String location = null;
 			synchronized(AdminConsolePlugin.getMap()) {
 				location = findLocation();
 			}
 			packet.setBody(location);
-		} else if (body.contains("delete")) {
-			synchronized(AdminConsolePlugin.getMap()) {
-				deleteLocation();
-			}
-		} else if (body.contains("get")) {
-			synchronized(AdminConsolePlugin.getMap()) {
-				findLocation();
-			}
 		}
 		synchronized(AdminConsolePlugin.getMap()) {
 			printMap();

@@ -282,3 +282,744 @@
 2016.08.27 17:47:12 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
 2016.08.27 17:47:12 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
 2016.08.27 17:47:12 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.27 18:15:00 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.27 18:15:00 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.27 18:15:00 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.27 18:15:00 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.27 18:15:00 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.27 18:15:00 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.27 18:15:00 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.27 18:15:00 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.27 18:15:00 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.27 18:15:00 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.27 18:15:00 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.27 18:15:00 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.27 18:15:00 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.27 18:15:00 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.27 18:15:00 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.27 18:15:00 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.27 18:15:00 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.27 18:15:00 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.27 18:15:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.27 18:15:00 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.27 18:15:00 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.08.27 19:24:43 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.08.27 19:24:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.08.27 19:24:45 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.08.27 19:24:45 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.08.27 19:24:45 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Aug 27, 2016 7:24:45 PM]
+2016.08.27 19:24:46 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.27 19:24:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.08.27 19:24:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.08.27 19:24:47 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.08.27 19:24:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.08.27 19:24:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.08.27 19:24:48 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] starting jolokia
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] starting hawtio
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.08.27 19:24:49 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.08.27 19:24:49 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.08.27 19:24:49 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.08.27 19:24:49 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.08.27 19:24:49 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.08.27 19:24:49 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.08.27 19:24:49 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.08.27 19:24:49 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.08.27 19:24:49 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.08.27 19:24:49 JmxWebPlugin - [jmxweb] started monitoring
+2016.08.27 19:24:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2016.08.27 19:24:53 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/Downloads/workspace_ubuntu/XMPP/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.08.27 19:24:58 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.27 19:24:58 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.08.27 19:24:58 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.08.27 19:24:58 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.08.27 19:24:58 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.27 23:41:01 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.27 23:41:01 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.27 23:41:01 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.27 23:41:01 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.27 23:41:01 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.27 23:41:01 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.27 23:41:01 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.27 23:41:01 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.27 23:41:01 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.27 23:41:01 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.27 23:41:01 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.27 23:41:01 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.27 23:41:01 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.27 23:41:01 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.27 23:41:01 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.27 23:41:01 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.27 23:41:02 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.27 23:41:02 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.27 23:41:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.27 23:41:02 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.27 23:41:02 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.08.27 23:48:42 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.08.27 23:48:42 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.08.27 23:48:42 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.08.27 23:48:42 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.08.27 23:48:42 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.08.27 23:48:42 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.08.27 23:48:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.08.27 23:48:43 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.08.27 23:48:43 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.08.27 23:48:43 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Aug 27, 2016 11:48:43 PM]
+2016.08.27 23:48:44 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.27 23:48:45 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.08.27 23:48:45 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.08.27 23:48:45 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.08.27 23:48:45 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.08.27 23:48:45 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.08.27 23:48:46 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.08.27 23:48:47 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.08.27 23:48:47 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.08.27 23:48:47 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.08.27 23:48:47 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.08.27 23:48:47 JmxWebPlugin - [jmxweb] starting jolokia
+2016.08.27 23:48:47 JmxWebPlugin - [jmxweb] starting hawtio
+2016.08.27 23:48:47 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.08.27 23:48:48 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.08.27 23:48:48 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.08.27 23:48:48 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.08.27 23:48:48 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.08.27 23:48:48 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.08.27 23:48:48 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.08.27 23:48:48 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.08.27 23:48:48 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.08.27 23:48:48 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.08.27 23:48:48 JmxWebPlugin - [jmxweb] started monitoring
+2016.08.27 23:48:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2016.08.27 23:48:52 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/Downloads/workspace_ubuntu/XMPP/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.08.27 23:48:56 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.27 23:48:56 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.08.27 23:48:56 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.08.27 23:48:56 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.08.27 23:48:56 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.27 23:49:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.08.28 00:00:00 JmxWebPlugin:EmailScheduler - Email Monitoring Running
+2016.08.28 01:26:12 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 01:26:12 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 01:26:12 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 01:26:12 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 01:26:12 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 01:26:12 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 01:31:52 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.28 01:31:52 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.28 01:31:52 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 01:31:52 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.28 01:31:52 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.28 01:31:52 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.28 01:31:52 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.28 01:31:52 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.28 01:31:52 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.28 01:31:52 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.28 01:31:52 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.28 01:31:52 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.28 01:31:52 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.28 01:31:52 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.28 01:31:52 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.28 01:31:52 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.28 01:31:53 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.28 01:31:53 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.28 01:31:53 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.28 01:31:53 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.28 01:31:53 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.08.28 01:31:56 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.08.28 01:31:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.08.28 01:31:57 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.08.28 01:31:57 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.08.28 01:31:57 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Aug 28, 2016 1:31:57 AM]
+2016.08.28 01:31:58 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 01:31:59 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.08.28 01:31:59 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.08.28 01:31:59 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.08.28 01:31:59 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.08.28 01:31:59 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.08.28 01:32:00 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] starting jolokia
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] starting hawtio
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.08.28 01:32:00 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.08.28 01:32:00 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.08.28 01:32:00 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.08.28 01:32:00 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.08.28 01:32:00 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.08.28 01:32:00 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.08.28 01:32:00 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.08.28 01:32:00 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.08.28 01:32:00 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.08.28 01:32:00 JmxWebPlugin - [jmxweb] started monitoring
+2016.08.28 01:32:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2016.08.28 01:32:03 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/Downloads/workspace_ubuntu/XMPP/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.08.28 01:32:06 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 01:32:06 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.08.28 01:32:06 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.08.28 01:32:06 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.08.28 01:32:06 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.08.28 01:32:06 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.08.28 01:32:06 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.08.28 01:32:07 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 01:32:07 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.08.28 01:32:07 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.08.28 01:32:07 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.08.28 01:32:07 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.28 01:32:09 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.08.28 01:48:40 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.28 01:48:40 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.28 01:48:40 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 01:48:40 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.28 01:48:40 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.28 01:48:40 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.28 01:48:40 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.28 01:48:40 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.28 01:48:40 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.28 01:48:40 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.28 01:48:40 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.28 01:48:40 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.28 01:48:40 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.28 01:48:40 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.28 01:48:40 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.28 01:48:40 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.28 01:48:40 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.28 01:48:40 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.28 01:48:40 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.28 01:48:40 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.28 01:48:40 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.08.28 01:48:45 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.08.28 01:48:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.08.28 01:48:46 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.08.28 01:48:46 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.08.28 01:48:46 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Aug 28, 2016 1:48:46 AM]
+2016.08.28 01:48:47 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 01:48:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.08.28 01:48:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.08.28 01:48:47 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.08.28 01:48:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.08.28 01:48:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.08.28 01:48:48 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] starting jolokia
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] starting hawtio
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.08.28 01:48:48 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.08.28 01:48:48 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.08.28 01:48:48 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.08.28 01:48:48 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.08.28 01:48:48 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.08.28 01:48:48 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.08.28 01:48:48 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.08.28 01:48:48 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.08.28 01:48:48 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.08.28 01:48:48 JmxWebPlugin - [jmxweb] started monitoring
+2016.08.28 01:48:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2016.08.28 01:48:50 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/Downloads/workspace_ubuntu/XMPP/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.08.28 01:48:53 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 01:48:53 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.08.28 01:48:53 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.08.28 01:48:53 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.08.28 01:48:53 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.28 01:49:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.08.28 01:55:42 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.28 01:55:42 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.28 01:55:42 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 01:55:42 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.28 01:55:42 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.28 01:55:42 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.28 01:55:42 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.28 01:55:42 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.28 01:55:42 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.28 01:55:42 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.28 01:55:42 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.28 01:55:42 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.28 01:55:42 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.28 01:55:42 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.28 01:55:42 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.28 01:55:42 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.28 01:55:42 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.28 01:55:42 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.28 01:55:42 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.28 01:55:42 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.28 01:55:42 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.08.28 02:05:02 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.08.28 02:05:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.08.28 02:05:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.08.28 02:05:04 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.08.28 02:05:04 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.08.28 02:05:04 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Aug 28, 2016 2:05:04 AM]
+2016.08.28 02:05:04 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 02:05:05 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.08.28 02:05:05 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.08.28 02:05:05 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.08.28 02:05:05 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.08.28 02:05:05 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.08.28 02:05:05 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] starting jolokia
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] starting hawtio
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.08.28 02:05:06 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.08.28 02:05:06 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.08.28 02:05:06 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.08.28 02:05:06 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.08.28 02:05:06 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.08.28 02:05:06 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.08.28 02:05:06 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.08.28 02:05:06 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.08.28 02:05:06 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.08.28 02:05:06 JmxWebPlugin - [jmxweb] started monitoring
+2016.08.28 02:05:06 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2016.08.28 02:05:08 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/Downloads/workspace_ubuntu/XMPP/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.08.28 02:05:10 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 02:05:10 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.08.28 02:05:10 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.08.28 02:05:10 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.08.28 02:05:10 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.08.28 02:05:10 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.08.28 02:05:11 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.08.28 02:05:11 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 02:05:11 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.08.28 02:05:11 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.08.28 02:05:11 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.08.28 02:05:11 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.28 02:05:16 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.08.28 02:05:45 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.28 02:05:45 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.28 02:05:45 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 02:05:45 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.28 02:05:45 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.28 02:05:45 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.28 02:05:45 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.28 02:05:45 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.28 02:05:45 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.28 02:05:45 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.28 02:05:45 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.28 02:05:45 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.28 02:05:45 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.28 02:05:45 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.28 02:05:45 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.28 02:05:45 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.28 02:05:45 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.28 02:05:45 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.28 02:05:45 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.28 02:05:45 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.28 02:05:45 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.08.28 02:06:48 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.08.28 02:06:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.08.28 02:06:49 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.08.28 02:06:50 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.08.28 02:06:50 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Aug 28, 2016 2:06:50 AM]
+2016.08.28 02:06:50 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 02:06:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.08.28 02:06:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.08.28 02:06:50 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.08.28 02:06:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.08.28 02:06:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.08.28 02:06:51 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] starting jolokia
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] starting hawtio
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.08.28 02:06:51 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.08.28 02:06:51 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.08.28 02:06:51 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.08.28 02:06:51 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.08.28 02:06:51 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.08.28 02:06:51 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.08.28 02:06:51 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.08.28 02:06:51 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.08.28 02:06:51 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.08.28 02:06:51 JmxWebPlugin - [jmxweb] started monitoring
+2016.08.28 02:06:52 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2016.08.28 02:06:54 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/Downloads/workspace_ubuntu/XMPP/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.08.28 02:06:57 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 02:06:57 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.08.28 02:06:57 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.08.28 02:06:57 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.08.28 02:06:57 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.28 02:07:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.08.28 02:14:43 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.28 02:14:43 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.28 02:14:43 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 02:14:43 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.28 02:14:43 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.28 02:14:43 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.28 02:14:43 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.28 02:14:43 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.28 02:14:43 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.28 02:14:43 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.28 02:14:43 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.28 02:14:43 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.28 02:14:43 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.28 02:14:43 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.28 02:14:43 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.28 02:14:43 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.28 02:14:43 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.28 02:14:43 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.28 02:14:43 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.28 02:14:43 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.28 02:14:43 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.08.28 02:14:46 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.08.28 02:14:46 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.08.28 02:14:47 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.08.28 02:14:47 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.08.28 02:14:47 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.08.28 02:14:47 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Aug 28, 2016 2:14:47 AM]
+2016.08.28 02:14:48 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 02:14:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.08.28 02:14:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.08.28 02:14:48 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.08.28 02:14:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.08.28 02:14:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.08.28 02:14:49 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] starting jolokia
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] starting hawtio
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.08.28 02:14:49 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.08.28 02:14:49 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.08.28 02:14:49 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.08.28 02:14:49 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.08.28 02:14:49 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.08.28 02:14:49 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.08.28 02:14:49 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.08.28 02:14:49 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.08.28 02:14:49 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.08.28 02:14:49 JmxWebPlugin - [jmxweb] started monitoring
+2016.08.28 02:14:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Session Location Cache
+2016.08.28 02:14:51 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/Downloads/workspace_ubuntu/XMPP/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.08.28 02:14:54 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.08.28 02:14:54 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.08.28 02:14:54 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.08.28 02:14:54 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.08.28 02:14:54 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.08.28 02:15:18 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.08.28 02:18:36 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.08.28 02:18:36 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.08.28 02:18:36 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.08.28 02:18:36 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.08.28 02:18:36 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.08.28 02:18:36 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.08.28 02:18:36 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.08.28 02:18:36 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.08.28 02:18:36 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.08.28 02:18:36 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.08.28 02:18:36 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.08.28 02:18:36 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.08.28 02:18:36 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.08.28 02:18:36 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.08.28 02:18:36 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.08.28 02:18:36 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.08.28 02:18:36 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.08.28 02:18:36 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.08.28 02:18:36 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Kraken Registration Cache
+2016.08.28 02:18:36 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.08.28 02:18:36 org.jivesoftware.openfire.XMPPServer - Server halted
