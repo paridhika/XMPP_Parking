@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.SmackExceptionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:58" hostname="paridhika-Satellite-C55-C" time="0.003">
+  <properties/>
+  <testcase name="testConnectionException" classname="org.jivesoftware.smack.SmackExceptionTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Exception in thread "consumer 1" java.lang.RuntimeException: java.lang.InterruptedException
+	at org.jivesoftware.smack.PacketCollectorTest$1.run(PacketCollectorTest.java:96)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at org.jivesoftware.smack.PacketCollector.nextResultBlockForever(PacketCollector.java:151)
+	at org.jivesoftware.smack.PacketCollectorTest$1.run(PacketCollectorTest.java:91)
+	... 1 more
+]]></system-err>
+</testsuite>

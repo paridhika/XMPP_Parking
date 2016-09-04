@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.igniterealtime.smack.tcp
+Implementation-Version: 4.2.0-beta3-SNAPSHOT
+Built-Date: 2016-08-29
+Built-By: paridhika
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1472355949000
+Import-Package: javax.net,javax.net.ssl,javax.security.auth.callback,o
+ rg.apache.commons.math3.distribution;version="[3.6,4)",org.jivesoftwa
+ re.smack;version="[4.2,5)",org.jivesoftware.smack.compress.packet;ver
+ sion="[4.2,5)",org.jivesoftware.smack.compression;version="[4.2,5)",o
+ rg.jivesoftware.smack.debugger;version="[4.2,5)",org.jivesoftware.sma
+ ck.filter;version="[4.2,5)",org.jivesoftware.smack.initializer;versio
+ n="[4.2,5)",org.jivesoftware.smack.packet;version="[4.2,5)",org.jives
+ oftware.smack.provider;version="[4.2,5)",org.jivesoftware.smack.proxy
+ ;version="[4.2,5)",org.jivesoftware.smack.sasl.packet;version="[4.2,5
+ )",org.jivesoftware.smack.sm;version="[4.2,5)",org.jivesoftware.smack
+ .sm.packet;version="[4.2,5)",org.jivesoftware.smack.sm.predicates;ver
+ sion="[4.2,5)",org.jivesoftware.smack.sm.provider;version="[4.2,5)",o
+ rg.jivesoftware.smack.tcp;version="[4.2,5)",org.jivesoftware.smack.ut
+ il;version="[4.2,5)",org.jivesoftware.smack.util.dns;version="[4.2,5)
+ ",org.jxmpp.jid;version="[0.5,1)",org.jxmpp.jid.impl;version="[0.5,1)
+ ",org.jxmpp.jid.parts;version="[0.5,1)",org.jxmpp.stringprep;version=
+ "[0.5,1)",org.jxmpp.util;version="[0.5,1)",org.xmlpull.v1
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Built-Gradle: 3.0
+Built-JDK: 1.8.0_71
+Tool: Bnd-3.2.0.201605172007
+Implementation-GitRevision: non-git build
+Export-Package: org.jivesoftware.smack.sm;version="4.2.0.beta3-SNAPSHO
+ T";uses:="org.jivesoftware.smack,org.jivesoftware.smack.packet",org.j
+ ivesoftware.smack.sm.packet;version="4.2.0.beta3-SNAPSHOT";uses:="org
+ .jivesoftware.smack.packet",org.jivesoftware.smack.sm.predicates;vers
+ ion="4.2.0.beta3-SNAPSHOT";uses:="org.jivesoftware.smack.filter,org.j
+ ivesoftware.smack.packet,org.jivesoftware.smack.tcp",org.jivesoftware
+ .smack.sm.provider;version="4.2.0.beta3-SNAPSHOT";uses:="org.jivesoft
+ ware.smack.packet,org.jivesoftware.smack.provider,org.jivesoftware.sm
+ ack.sm.packet,org.xmlpull.v1",org.jivesoftware.smack.tcp;version="4.2
+ .0.beta3-SNAPSHOT";uses:="org.jivesoftware.smack,org.jivesoftware.sma
+ ck.filter,org.jivesoftware.smack.initializer,org.jivesoftware.smack.p
+ acket,org.jivesoftware.smack.sm,org.jxmpp.jid.parts,org.jxmpp.stringp
+ rep",org.jivesoftware.smack.tcp.client;version="4.2.0.beta3-SNAPSHOT"
+ ;uses:="org.jivesoftware.smack"
+Bundle-Version: 4.2.0.beta3-SNAPSHOT
+Bundle-Name: smack-tcp
+Created-By: 1.8.0_71 (Oracle Corporation)
+

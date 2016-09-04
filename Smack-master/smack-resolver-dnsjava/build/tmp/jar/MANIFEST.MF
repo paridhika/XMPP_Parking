@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.igniterealtime.smack.resolver-dnsjava
+Implementation-Version: 4.2.0-beta3-SNAPSHOT
+Built-Date: 2016-08-22
+Built-By: paridhika
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1471880561000
+Import-Package: org.jivesoftware.smack.initializer;version="[4.2,5)",o
+ rg.jivesoftware.smack.util;version="[4.2,5)",org.jivesoftware.smack.u
+ til.dns;version="[4.2,5)",org.xbill.DNS;version="[2.1,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Built-Gradle: 3.0
+Built-JDK: 1.8.0_71
+Tool: Bnd-3.2.0.201605172007
+Implementation-GitRevision: non-git build
+Export-Package: org.jivesoftware.smack.util.dns.dnsjava;version="4.2.0
+ .beta3-SNAPSHOT";uses:="org.jivesoftware.smack.initializer,org.jiveso
+ ftware.smack.util.dns,org.xbill.DNS"
+Bundle-Version: 4.2.0.beta3-SNAPSHOT
+Bundle-Name: smack-resolver-dnsjava
+Created-By: 1.8.0_71 (Oracle Corporation)
+

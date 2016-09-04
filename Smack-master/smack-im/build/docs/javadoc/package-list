@@ -1,0 +1,6 @@
+org.jivesoftware.smack.chat
+org.jivesoftware.smack.im
+org.jivesoftware.smack.roster
+org.jivesoftware.smack.roster.packet
+org.jivesoftware.smack.roster.provider
+org.jivesoftware.smack.roster.rosterstore

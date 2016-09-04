@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.filter.FromMatchesFilterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:58" hostname="paridhika-Satellite-C55-C" time="0.006">
+  <properties/>
+  <testcase name="fullCompareMatchingBaseJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.001"/>
+  <testcase name="autoCompareMatchingEntityFullJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.0"/>
+  <testcase name="fullCompareMatchingEntityFullJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.001"/>
+  <testcase name="bareCompareMatchingEntityFullJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.0"/>
+  <testcase name="bareCompareMatchingBaseJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.0"/>
+  <testcase name="bareCompareMatchingServiceJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.001"/>
+  <testcase name="autoCompareMatchingBaseJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.001"/>
+  <testcase name="fullCompareMatchingServiceJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.0"/>
+  <testcase name="autoCompareMatchingServiceJid" classname="org.jivesoftware.smack.filter.FromMatchesFilterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

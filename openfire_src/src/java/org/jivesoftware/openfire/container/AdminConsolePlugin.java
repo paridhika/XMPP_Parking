@@ -92,11 +92,13 @@ public class AdminConsolePlugin implements Plugin {
      */
     public AdminConsolePlugin() {
         contexts = new ContextHandlerCollection();
+        // Paridhika
         initializeMap();
         // JSP 2.0 uses commons-logging, so also override that implementation.
         System.setProperty("org.apache.commons.logging.LogFactory", "org.jivesoftware.util.log.util.CommonsLogFactory");
     }
     
+    // Paridhika
     private void initializeMap() {
 		for (int i = 0; i < SIZE; i++) {
 			for (int j = 0; j < SIZE; j++) {

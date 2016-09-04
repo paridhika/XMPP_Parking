@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.PacketCollectorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:52" hostname="paridhika-Satellite-C55-C" time="6.016">
+  <properties/>
+  <testcase name="verifyRollover" classname="org.jivesoftware.smack.PacketCollectorTest" time="1.004"/>
+  <testcase name="verifyThreadSafety" classname="org.jivesoftware.smack.PacketCollectorTest" time="5.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

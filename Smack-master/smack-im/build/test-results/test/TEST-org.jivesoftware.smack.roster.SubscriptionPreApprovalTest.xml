@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.roster.SubscriptionPreApprovalTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-08-29T15:00:54" hostname="paridhika-Satellite-C55-C" time="0.004">
+  <properties/>
+  <testcase name="testPreApprovalNotSupported" classname="org.jivesoftware.smack.roster.SubscriptionPreApprovalTest" time="0.001"/>
+  <testcase name="testPreApproveAndCreate" classname="org.jivesoftware.smack.roster.SubscriptionPreApprovalTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

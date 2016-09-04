@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.chat.ChatConnectionTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2016-08-29T15:00:54" hostname="paridhika-Satellite-C55-C" time="0.093">
+  <properties/>
+  <testcase name="validateDefaultSetNormalIncludedFalse" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.009"/>
+  <testcase name="chatMatchedOnJIDWhenNoThreadNoneMode" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.026"/>
+  <testcase name="chatNotFoundWithDiffThreadEntityFullJid" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.002"/>
+  <testcase name="chatNotFoundWithDiffThreadBaseJid" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="chatMatchedOnJIDWhenNoThreadBareMode" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.002"/>
+  <testcase name="chatFoundWithSameThreadEntityFullJid" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="validateDefaultSetNormalIncludedTrue" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="chatFoundWithSameThreadBaseJid" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="validateDefaultSetMatchModeNone" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="validateDefaultSetMatchModeEntityBareJid" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.0"/>
+  <testcase name="chatNotMatchedWithTypeNormal" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.003"/>
+  <testcase name="chatFoundWhenNoThreadEntityFullJid" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="chatMatchedOnJIDWhenNoThreadJidMode" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.002"/>
+  <testcase name="chatFoundWhenNoThreadBaseJid" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="validateMessageTypeWithNoNormal1" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="validateMessageTypeWithNoNormal2" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.013"/>
+  <testcase name="validateMessageTypeWithDefaults1" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.021"/>
+  <testcase name="validateMessageTypeWithDefaults2" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.001"/>
+  <testcase name="validateMessageTypeWithDefaults3" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.002"/>
+  <testcase name="validateMessageTypeWithDefaults4" classname="org.jivesoftware.smack.chat.ChatConnectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

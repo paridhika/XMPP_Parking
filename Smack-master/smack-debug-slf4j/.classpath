@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="bin" kind="output"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7/"/>
+	<classpathentry kind="src" path="/smack-core"/>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/f285ac123f201fb4b028bac556928d7cf527ef48/slf4j-api-1.7.21-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/72e00d8dc052190c5d0aca77f9a9c5124ec3a1c1/slf4j-api-1.7.21-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/8dd0ddee19fe6ed0182b18e0e621d1c8b4d8d56/xpp3-1.1.4c-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/9b988ea84b9e4e9f1874e390ce099b8ac12cfff5/xpp3-1.1.4c.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/106ec701aea9934d58071ce7701a6b8cdd88e702/xpp3-1.1.4c-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.5.0-alpha7/c52f5e57f1a8337afe95ccae8c2a4d0eb7117d02/jxmpp-core-0.5.0-alpha7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.5.0-alpha7/6bd7e07a1b991a783587e3dac1d34fc94ea28d1f/jxmpp-core-0.5.0-alpha7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.5.0-alpha7/9fe88df22160ea48b6b8a4115ce38fda5eff2938/jxmpp-core-0.5.0-alpha7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/cbcd78867ab63a14bd9b7a3a9230072f44eb803a/jxmpp-jid-0.5.0-alpha7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/a58f0dbdcc701d2be97e3d3bf957a5efbeab68d/jxmpp-jid-0.5.0-alpha7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/bda977fc4682915a1aa81b7131b2376da1448466/jxmpp-jid-0.5.0-alpha7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/cbcd78867ab63a14bd9b7a3a9230072f44eb803a/jxmpp-jid-0.5.0-alpha7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/ddb34f2832f39d6b00b5661ab936a5e0dde51ed7/jxmpp-jid-0.5.0-alpha7-tests.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/bda977fc4682915a1aa81b7131b2376da1448466/jxmpp-jid-0.5.0-alpha7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paridhika/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/xmlunit/xmlunit/1.5/fca719d9f09ccf77b2df232099067d202309ad2c/xmlunit-1.5-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/xmlunit/xmlunit/1.5/7789cef5caffdecab50fd6099535ad2bc2e98044/xmlunit-1.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/xmlunit/xmlunit/1.5/c6bae65a03ed2973c4d8db5a4620006c576c7e5/xmlunit-1.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.5.5/f9842dbc035d3e50eb47908c24f4117b37c82ace/powermock-module-junit4-1.5.5-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.5.5/b7345c0fb1863da1d318df655baf9c4578ff8717/powermock-module-junit4-1.5.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.5.5/fce3b43dd199516c646c7f787d080dbc3d30f9ed/powermock-module-junit4-1.5.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito/1.5.5/175f6edd16351387cb28d0c8856535a8295be5f5/powermock-api-mockito-1.5.5-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito/1.5.5/5c1dd0cc7e9f6ee36fe00f1786a3bad71301d9b2/powermock-api-mockito-1.5.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito/1.5.5/a0ece1f59c887f623264475ab006f1f8a7b11013/powermock-api-mockito-1.5.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/com.jamesmurty.utils/java-xmlbuilder/0.6/385493fbb635f3e4c85e3906317afa074fe48a31/java-xmlbuilder-0.6-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/com.jamesmurty.utils/java-xmlbuilder/0.6/db049c92218c35edba0f395e38eff723b1303c02/java-xmlbuilder-0.6.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/com.jamesmurty.utils/java-xmlbuilder/0.6/20a885ee9c8d9e4ad6d10b1394f7c572a3760cf2/java-xmlbuilder-0.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/net.iharder/base64/2.3.8/3053f17250ee512807fe601baffb30392bd9b3a9/base64-2.3.8-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/net.iharder/base64/2.3.8/7d2e2cea90cc51169fd02a35888820ab07f6d02f/base64-2.3.8.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/net.iharder/base64/2.3.8/7562085c2165f2292474f173a26b474839fea792/base64-2.3.8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.5.0-alpha7/e237091460925c3ee567c05652c8ed40fa110d07/jxmpp-util-cache-0.5.0-alpha7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.5.0-alpha7/6b51cd4ea6cdb74f8500de6fa4a2925a98ac466e/jxmpp-util-cache-0.5.0-alpha7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.5.0-alpha7/e1f15fa320927a7bcb44890f45236a1f64db814e/jxmpp-util-cache-0.5.0-alpha7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paridhika/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.5.5/30f912a0ddbb1b312fd045303f66a15b480a53d9/powermock-module-junit4-common-1.5.5-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.5.5/56fe72c5ae3699254da00d3bcf1c111ad20a49ad/powermock-module-junit4-common-1.5.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.5.5/8283ff510402047772dc85a632488c26618ce10f/powermock-module-junit4-common-1.5.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paridhika/.m2/repository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"/>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-support/1.5.5/4f251237cf603803dd36d9101d46a14404dafd33/powermock-api-support-1.5.5-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-support/1.5.5/47ced6e594775c9540f2510d339c7d27c290bbd3/powermock-api-support-1.5.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-support/1.5.5/e47e50512765ee1648984f463d914edd330a689c/powermock-api-support-1.5.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.5.5/6b99d0566539062667f042a191d448d83663c5cb/powermock-core-1.5.5-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.5.5/ba81ce0cbc358f1a9570db81a417d5a60a3c6c85/powermock-core-1.5.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.5.5/c82463b180b3573e90cc1ec61d60c7f0548d4161/powermock-core-1.5.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.5.5/a433bb76b5d75092c005cc87358736cce1745cc1/powermock-reflect-1.5.5-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.5.5/cc8cc783dbef2d0c0d83e099cf3e74127b2c2251/powermock-reflect-1.5.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.5.5/ba345a4fa6a41e1ffc49060777b299e0d5be5988/powermock-reflect-1.5.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/7163084913aa7399e4ce2cbc3ee5c00ac2b1f35f/javassist-3.18.2-GA-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/d0e676f1407a226f978018fee1418d4d50dabb64/javassist-3.18.2-GA-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/cad27a134a9b0d295341abcaf3de9d25e1534ae6/objenesis-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+</classpath>

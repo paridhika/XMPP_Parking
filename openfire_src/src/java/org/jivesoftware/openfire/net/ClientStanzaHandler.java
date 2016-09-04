@@ -60,12 +60,13 @@ public class ClientStanzaHandler extends StanzaHandler {
 		super(router, connection);
 	}
 
+	// Paridhika
 	private String findLocation() {
 		for (int i = 0; i < SIZE; i++) {
 			for (int j = 0; j < SIZE; j++) {
 				if (AdminConsolePlugin.getMap()[i][j].equals("EMPTY")) {
 					AdminConsolePlugin.getMap()[i][j] = "OCCUPIED";
-					return i + " " + j;
+					return i + "," + j;
 				}
 			}
 		}
@@ -156,11 +157,13 @@ public class ClientStanzaHandler extends StanzaHandler {
 	protected void processMessage(Message packet) throws UnauthorizedException {
 		// Overwrite the FROM attribute to avoid spoofing
 		packet.setFrom(session.getAddress());
+		// Paridhika
 		packet.setTo(packet.getFrom());
 		parkingHandler(packet);
 		super.processMessage(packet);
 	}
 
+	// Paridhika
 	private void parkingHandler(Message packet) {
 		String body = packet.getBody();
 		if (body.contains("put")) {
@@ -176,7 +179,7 @@ public class ClientStanzaHandler extends StanzaHandler {
 			synchronized(AdminConsolePlugin.getMap()) {
 				location = findLocation();
 			}
-			packet.setBody(location);
+			packet.setBody("Available Location:" + location);
 		}
 		synchronized(AdminConsolePlugin.getMap()) {
 			printMap();

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.util.PacketParserUtilsTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:51" hostname="paridhika-Satellite-C55-C" time="0.304">
+  <properties/>
+  <testcase name="validateSimplePresence" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.003"/>
+  <testcase name="multipleMessageBodiesParsingTest" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.06"/>
+  <testcase name="invalidXMLInMessageBody" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.004"/>
+  <testcase name="singleMessageSubjectTest" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.12"/>
+  <testcase name="multipleMessageSubjectsTest" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.024"/>
+  <testcase name="invalidMessageBodyContainingTagTest" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.02"/>
+  <testcase name="parseSASLFailureSimple" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.006"/>
+  <testcase name="parseElementMultipleNamespace" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.004"/>
+  <testcase name="multipleMessageBodiesTest" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.023"/>
+  <testcase name="parseContentDepthTest" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.0"/>
+  <testcase name="parseSASLFailureExtended" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.005"/>
+  <testcase name="validatePresenceOptionalElements" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.003"/>
+  <testcase name="validatePresenceProbe" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.002"/>
+  <testcase name="singleMessageBodyTest" classname="org.jivesoftware.smack.util.PacketParserUtilsTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

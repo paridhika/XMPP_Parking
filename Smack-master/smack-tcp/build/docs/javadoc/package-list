@@ -1,0 +1,6 @@
+org.jivesoftware.smack.sm
+org.jivesoftware.smack.sm.packet
+org.jivesoftware.smack.sm.predicates
+org.jivesoftware.smack.sm.provider
+org.jivesoftware.smack.tcp
+org.jivesoftware.smack.tcp.client

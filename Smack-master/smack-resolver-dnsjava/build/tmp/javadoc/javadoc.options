@@ -1,0 +1,11 @@
+-Xdoclint:all,-html,-syntax '-quiet'
+-charset 'UTF-8'
+-classpath '/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-resolver-dnsjava/build/classes/main:/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-resolver-dnsjava/build/resources/main:/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-core/build/libs/smack-core-4.2.0-beta3-SNAPSHOT.jar:/home/paridhika/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.7/a1ed0a251d22bf528cebfafb94c55e6f3f339cf/dnsjava-2.1.7.jar:/home/paridhika/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/9b988ea84b9e4e9f1874e390ce099b8ac12cfff5/xpp3-1.1.4c.jar:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.5.0-alpha7/6bd7e07a1b991a783587e3dac1d34fc94ea28d1f/jxmpp-core-0.5.0-alpha7.jar:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/a58f0dbdcc701d2be97e3d3bf957a5efbeab68d/jxmpp-jid-0.5.0-alpha7.jar:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.5.0-alpha7/6b51cd4ea6cdb74f8500de6fa4a2925a98ac466e/jxmpp-util-cache-0.5.0-alpha7.jar'
+-d '/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-resolver-dnsjava/build/docs/javadoc'
+-doctitle 'smack-resolver-dnsjava 4.2.0-beta3-SNAPSHOT API'
+-quiet 
+-windowtitle 'smack-resolver-dnsjava 4.2.0-beta3-SNAPSHOT API'
+'/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-resolver-dnsjava/src/main/java/org/jivesoftware/smack/util/package-info.java'
+'/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-resolver-dnsjava/src/main/java/org/jivesoftware/smack/util/dns/package-info.java'
+'/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-resolver-dnsjava/src/main/java/org/jivesoftware/smack/util/dns/dnsjava/package-info.java'
+'/home/paridhika/Downloads/workspace_ubuntu/XMPP/Smack-master/smack-resolver-dnsjava/src/main/java/org/jivesoftware/smack/util/dns/dnsjava/DNSJavaResolver.java'

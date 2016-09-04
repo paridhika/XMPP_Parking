@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.igniterealtime.smack.sasl-javax
+Implementation-Version: 4.2.0-beta3-SNAPSHOT
+Built-Date: 2016-08-24
+Built-By: paridhika
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1471912758000
+Import-Package: javax.security.auth.callback,javax.security.sasl,org.j
+ ivesoftware.smack;version="[4.2,5)",org.jivesoftware.smack.initialize
+ r;version="[4.2,5)",org.jivesoftware.smack.sasl;version="[4.2,5)",org
+ .jxmpp.jid;version="[0.5,1)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Built-Gradle: 3.0
+Built-JDK: 1.8.0_71
+Tool: Bnd-3.2.0.201605172007
+Implementation-GitRevision: non-git build
+Export-Package: org.jivesoftware.smack.sasl.javax;version="4.2.0.beta3
+ -SNAPSHOT";uses:="javax.security.auth.callback,javax.security.sasl,or
+ g.jivesoftware.smack,org.jivesoftware.smack.initializer,org.jivesoftw
+ are.smack.sasl"
+Bundle-Version: 4.2.0.beta3-SNAPSHOT
+Bundle-Name: smack-sasl-javax
+Created-By: 1.8.0_71 (Oracle Corporation)
+

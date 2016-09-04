@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.packet.MessageTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:51" hostname="paridhika-Satellite-C55-C" time="0.107">
+  <properties/>
+  <testcase name="setMessageSubjectTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.081"/>
+  <testcase name="setMessageThreadTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.003"/>
+  <testcase name="multipleMessageBodiesTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.008"/>
+  <testcase name="setMessageTypeTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.006"/>
+  <testcase name="messageXmlLangTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.003"/>
+  <testcase name="oneMessageBodyTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.003"/>
+  <testcase name="removeMessageBodyTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.0"/>
+  <testcase name="setNullMessageBodyTest" classname="org.jivesoftware.smack.packet.MessageTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

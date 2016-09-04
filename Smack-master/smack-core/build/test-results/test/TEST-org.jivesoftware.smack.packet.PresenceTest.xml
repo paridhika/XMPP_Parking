@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.packet.PresenceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:51" hostname="paridhika-Satellite-C55-C" time="0.019">
+  <properties/>
+  <testcase name="isPresenceAvailableTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.001"/>
+  <testcase name="setPresenceStatusTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.002"/>
+  <testcase name="presenceXmlLangTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.002"/>
+  <testcase name="setPresencePriorityTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.002"/>
+  <testcase name="setPresenceTypeTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.003"/>
+  <testcase name="setPresenceModeTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.005"/>
+  <testcase name="isModeAwayTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.0"/>
+  <testcase name="setNullPresenceTypeTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.001"/>
+  <testcase name="setIllegalPriorityTest" classname="org.jivesoftware.smack.packet.PresenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

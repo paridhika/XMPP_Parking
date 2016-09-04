@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.provider.ProviderConfigTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:50" hostname="paridhika-Satellite-C55-C" time="0.131">
+  <properties/>
+  <testcase name="addGenericLoaderProvider" classname="org.jivesoftware.smack.provider.ProviderConfigTest" time="0.084"/>
+  <testcase name="addClasspathFileLoaderProvider" classname="org.jivesoftware.smack.provider.ProviderConfigTest" time="0.046"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

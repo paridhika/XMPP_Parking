@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.igniterealtime.smack.resolver-javax
+Implementation-Version: 4.2.0-beta3-SNAPSHOT
+Built-Date: 2016-08-22
+Built-By: paridhika
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1471912757000
+Import-Package: javax.naming,javax.naming.directory,org.jivesoftware.s
+ mack.initializer;version="[4.2,5)",org.jivesoftware.smack.util;versio
+ n="[4.2,5)",org.jivesoftware.smack.util.dns;version="[4.2,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Built-Gradle: 3.0
+Built-JDK: 1.8.0_71
+Tool: Bnd-3.2.0.201605172007
+Implementation-GitRevision: non-git build
+Export-Package: org.jivesoftware.smack.util.dns.javax;version="4.2.0.b
+ eta3-SNAPSHOT";uses:="javax.naming,org.jivesoftware.smack.initializer
+ ,org.jivesoftware.smack.util.dns"
+Bundle-Version: 4.2.0.beta3-SNAPSHOT
+Bundle-Name: smack-resolver-javax
+Created-By: 1.8.0_71 (Oracle Corporation)
+

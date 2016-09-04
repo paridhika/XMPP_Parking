@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.roster.RosterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-08-29T15:00:54" hostname="paridhika-Satellite-C55-C" time="0.422">
+  <properties/>
+  <testcase name="testSimpleRosterInitialization" classname="org.jivesoftware.smack.roster.RosterTest" time="0.174"/>
+  <testcase name="testDeleteRosterItem" classname="org.jivesoftware.smack.roster.RosterTest" time="0.035"/>
+  <testcase name="testAddRosterItem" classname="org.jivesoftware.smack.roster.RosterTest" time="0.024"/>
+  <testcase name="testUpdateRosterItem" classname="org.jivesoftware.smack.roster.RosterTest" time="0.032"/>
+  <testcase name="testAddEmptyGroupEntry" classname="org.jivesoftware.smack.roster.RosterTest" time="0.046"/>
+  <testcase name="testEmptyGroupRosterPush" classname="org.jivesoftware.smack.roster.RosterTest" time="0.04"/>
+  <testcase name="testIgnoreInvalidFrom" classname="org.jivesoftware.smack.roster.RosterTest" time="0.046"/>
+  <testcase name="testSimpleRosterPush" classname="org.jivesoftware.smack.roster.RosterTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Aug 29, 2016 11:00:54 AM org.jivesoftware.smack.roster.Roster$RosterPushListener handleIQRequest
+WARNING: Ignoring roster push with a non matching 'from' ourJid='dummy@example.org' from='mallory@example.com'
+]]></system-err>
+</testsuite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="bin" kind="output"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7/"/>
+	<classpathentry kind="src" path="/smack-core"/>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.7/11749af9e3182b16f799e4d2e4b6506830163f5c/dnsjava-2.1.7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.7/a1ed0a251d22bf528cebfafb94c55e6f3f339cf/dnsjava-2.1.7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.7/ff45ac390b34d63b5c7c15fe45a8aa9add053668/dnsjava-2.1.7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/8dd0ddee19fe6ed0182b18e0e621d1c8b4d8d56/xpp3-1.1.4c-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/9b988ea84b9e4e9f1874e390ce099b8ac12cfff5/xpp3-1.1.4c.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/106ec701aea9934d58071ce7701a6b8cdd88e702/xpp3-1.1.4c-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.5.0-alpha7/c52f5e57f1a8337afe95ccae8c2a4d0eb7117d02/jxmpp-core-0.5.0-alpha7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.5.0-alpha7/6bd7e07a1b991a783587e3dac1d34fc94ea28d1f/jxmpp-core-0.5.0-alpha7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.5.0-alpha7/9fe88df22160ea48b6b8a4115ce38fda5eff2938/jxmpp-core-0.5.0-alpha7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/cbcd78867ab63a14bd9b7a3a9230072f44eb803a/jxmpp-jid-0.5.0-alpha7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/a58f0dbdcc701d2be97e3d3bf957a5efbeab68d/jxmpp-jid-0.5.0-alpha7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-jid/0.5.0-alpha7/bda977fc4682915a1aa81b7131b2376da1448466/jxmpp-jid-0.5.0-alpha7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.5.0-alpha7/e237091460925c3ee567c05652c8ed40fa110d07/jxmpp-util-cache-0.5.0-alpha7-sources.jar" kind="lib" path="/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.5.0-alpha7/6b51cd4ea6cdb74f8500de6fa4a2925a98ac466e/jxmpp-util-cache-0.5.0-alpha7.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/paridhika/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.5.0-alpha7/e1f15fa320927a7bcb44890f45236a1f64db814e/jxmpp-util-cache-0.5.0-alpha7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+</classpath>

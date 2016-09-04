@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.igniterealtime.smack.java7
+Implementation-Version: 4.2.0-beta3-SNAPSHOT
+Built-Date: 2016-08-22
+Built-By: paridhika
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1471912759000
+Import-Package: javax.naming,javax.naming.ldap,javax.net.ssl,javax.sec
+ urity.auth.kerberos,javax.security.auth.x500,org.jivesoftware.smack;v
+ ersion="[4.2,5)",org.jivesoftware.smack.initializer;version="[4.2,5)"
+ ,org.jivesoftware.smack.util;version="[4.2,5)",org.jivesoftware.smack
+ .util.stringencoder;version="[4.2,5)",org.jivesoftware.smack.util.str
+ ingencoder.java7;version="[4.2,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Built-Gradle: 3.0
+Built-JDK: 1.8.0_71
+Tool: Bnd-3.2.0.201605172007
+Implementation-GitRevision: non-git build
+Export-Package: org.jivesoftware.smack.java7;version="4.2.0.beta3-SNAP
+ SHOT";uses:="javax.net.ssl,org.jivesoftware.smack.initializer",org.ji
+ vesoftware.smack.util.stringencoder.java7;version="4.2.0.beta3-SNAPSH
+ OT";uses:="org.jivesoftware.smack.util.stringencoder"
+Bundle-Version: 4.2.0.beta3-SNAPSHOT
+Bundle-Name: smack-java7
+Created-By: 1.8.0_71 (Oracle Corporation)
+

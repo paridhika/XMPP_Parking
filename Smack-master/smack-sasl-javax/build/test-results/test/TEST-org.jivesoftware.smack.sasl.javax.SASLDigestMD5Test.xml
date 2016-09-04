@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.sasl.javax.SASLDigestMD5Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-08-24T14:37:46" hostname="paridhika-Satellite-C55-C" time="0.438">
+  <properties/>
+  <testcase name="testDigestMD5" classname="org.jivesoftware.smack.sasl.javax.SASLDigestMD5Test" time="0.435"/>
+  <testcase name="testDigestMD5Authzid" classname="org.jivesoftware.smack.sasl.javax.SASLDigestMD5Test" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

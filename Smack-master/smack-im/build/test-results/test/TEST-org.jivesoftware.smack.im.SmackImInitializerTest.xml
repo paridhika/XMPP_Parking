@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.im.SmackImInitializerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-29T15:00:54" hostname="paridhika-Satellite-C55-C" time="0.014">
+  <properties/>
+  <testcase name="testExtensionInitializer" classname="org.jivesoftware.smack.im.SmackImInitializerTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

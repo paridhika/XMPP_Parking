@@ -1,32 +1,23 @@
 package org.jivesoftware.smack.tcp.client;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 import org.apache.commons.math3.distribution.PoissonDistribution;
-import org.jivesoftware.smack.AbstractConnectionListener;
-import org.jivesoftware.smack.ConnectionConfiguration.SecurityMode;
-import org.jivesoftware.smack.ConnectionListener;
-import org.jivesoftware.smack.PacketCollector;
-import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.SmackException.NotConnectedException;
-import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.filter.MessageTypeFilter;
-import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Presence;
-import org.jivesoftware.smack.tcp.XMPPTCPConnection;
-import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-import org.jxmpp.jid.EntityJid;
-import org.jxmpp.jid.impl.JidCreate;
-import org.jxmpp.stringprep.XmppStringprepException;
 
+import org.jivesoftware.smack.SmackException;
+import org.jivesoftware.smack.XMPPException;
 /**
  * @author paridhika
  *
  */
 public class XMPPOpenfireConnection {
 
-	static Random randGenerator = new Random();
 	/**
 	 * @param args
 	 * @throws InterruptedException
@@ -35,100 +26,16 @@ public class XMPPOpenfireConnection {
 	 * @throws SmackException
 	 */
 	public static void main(String[] args) throws SmackException, IOException, XMPPException, InterruptedException {
-		double mean = 1;
-		int count = 10;
-		while (mean < 200) {
-			PoissonDistribution p = new PoissonDistribution(mean);
-			long wait = p.sample();
-			int i = 1;
-			while (i < count) {
-				Thread t = new Thread(new clientsThread(i));
-				t.start();
-				i++;
-				Thread.sleep(wait);
-				wait = p.sample();
-			}	
-			mean *= 2;
-		}
+		abstractClientWrapper.initializeEmptySet();
+		Thread putClient = new Thread(new putClient());
+		putClient.start();
+		Thread getClient = new Thread(new getClient());
+		getClient.start();
+		Thread deleteClient = new Thread(new deleteClient());
+		deleteClient.start();
+		putClient.join();
+		getClient.join();
+		deleteClient.join();
 	}
 
-	public static class clientsThread implements Runnable {
-		private final ConnectionListener connectionListener = new AbstractConnectionListener();
-
-		public clientsThread(int i) throws SmackException, IOException, XMPPException, InterruptedException {
-			this.i = i;
-		}
-
-		int i;
-		public void run() {
-			XMPPTCPConnectionConfiguration config = null;
-			try {
-				config = XMPPTCPConnectionConfiguration.builder()
-						.setXmppDomain("paridhika-satellite-c55-c:9090")
-						.setHost("paridhika-satellite-c55-c")
-						.setPort(5222)
-						.setSecurityMode(SecurityMode.disabled)
-						.setDebuggerEnabled(false).build();
-			} catch (XmppStringprepException e2) {
-				e2.printStackTrace();
-			}
-			XMPPTCPConnection conn2 = new XMPPTCPConnection(config);
-			try {
-				conn2.connect();
-			} catch (SmackException | IOException | XMPPException | InterruptedException e1) {
-				e1.printStackTrace();
-			}
-			try {
-				conn2.login("admin", "admin");
-			} catch (XMPPException | SmackException | IOException | InterruptedException e2) {
-				// TODO Auto-generated catch block
-				e2.printStackTrace();
-			}
-			conn2.addConnectionListener(connectionListener);
-			try {
-				conn2.sendStanza(new Presence(Presence.Type.subscribe));
-			} catch (NotConnectedException | InterruptedException e2) {
-				// TODO Auto-generated catch block
-				e2.printStackTrace();
-			}
-			PacketCollector collector = conn2.createPacketCollector(new MessageTypeFilter(Message.Type.chat));
-			EntityJid jid = null;
-			try {
-				jid = (EntityJid) JidCreate.from("client" + i + "@paridhika-satellite-c55-c");
-			} catch (XmppStringprepException e1) {
-				e1.printStackTrace();
-			}
-			Message msg = new Message(jid, Message.Type.chat);	
-			int randx = randGenerator.nextInt(10);
-			int randy = randGenerator.nextInt(10);
-			int client = randGenerator.nextInt(3);
-			if(client == 0){
-				msg.setBody("get");
-			}else if(client == 1){
-				msg.setBody("put:" + randx+","+randy);
-			} else {
-				msg.setBody("delete:" + randx+","+randy);
-			}
-			try {
-				conn2.sendStanza(msg);
-			} catch (NotConnectedException | InterruptedException e) {
-				e.printStackTrace();
-			}
-			Message rcv = null;
-			try {
-				rcv = (Message) collector.nextResult();
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			if(client == 0){
-				System.out.println("Available Location:" + rcv.getBody());
-			}else if(client == 1){
-				System.out.println("Put Location:" + randx+","+randy);
-			} else {
-				System.out.println("Delete Location:" + randx+","+randy);
-			}
-			
-			conn2.disconnect();
-		}
-	}
 }

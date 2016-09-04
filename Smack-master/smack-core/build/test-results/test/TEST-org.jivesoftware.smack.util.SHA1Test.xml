@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jivesoftware.smack.util.SHA1Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-29T14:59:51" hostname="paridhika-Satellite-C55-C" time="0.0">
+  <properties/>
+  <testcase name="testHash" classname="org.jivesoftware.smack.util.SHA1Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

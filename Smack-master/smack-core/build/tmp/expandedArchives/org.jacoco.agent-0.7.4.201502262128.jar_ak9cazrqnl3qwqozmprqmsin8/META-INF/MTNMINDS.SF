@@ -1,0 +1,21 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: Uq+ebAcfH0Z16NbjUI3zkeWsb2fS6
+ /XeBkS+G3fWMMs=
+SHA-256-Digest-Manifest: CaA6t9Awm4x1dIC1zg9nqGWiQYpd/7qAl7wv6QK8svA=
+Created-By: 1.7.0_76 (Oracle Corporation)
+
+Name: org/jacoco/agent/AgentJar.class
+SHA-256-Digest: U95UVynH3FhOE/CRUdyOcRvWC0qfrJUFBiBS9mddvHs=
+
+Name: META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties
+SHA-256-Digest: kJtCE+0o2xCu5lX3J0Y4ZiS+ciCukcyRXo7QUuXg/EQ=
+
+Name: about.html
+SHA-256-Digest: vudRiA8pG5EEpQCpuHZvZmRigqhDockFuk+EeQwjk5w=
+
+Name: jacocoagent.jar
+SHA-256-Digest: /uCyECnQAhJfy5Q+KfgJy8HoPglASJAu3a3dwZS9Nbg=
+
+Name: META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml
+SHA-256-Digest: 7Wfx33dXQBUb2VCA7bT+sRheeWN0eq60i0jAy7VDyqo=
+
