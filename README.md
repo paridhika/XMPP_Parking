@@ -14,6 +14,29 @@ File Location:-
 
 
 ### Client side changes:- 
-Created new folder in smack-tcp. Clients thread are running and service time for each client is noted to evaluate prformance. Clients are arriving according to Poisson Distribution.
+Created new folder client in smack-tcp. Clients thread are running and service time for each client is noted to evaluate prformance. Clients are arriving according to Poisson Distribution.
 
-File Location:- smack-tcp/src/main/java/org/jivesoftware/smack/tcp/client/XMPPOpenfireConnection.java
+Folder Location:- smack-tcp/src/main/java/org/jivesoftware/smack/tcp/client
+Files added:- 
+* XMPPOpenfireConnection.java
+* abstractClientWrapper.java
+* clientsThread.java
+* putClient.java
+* getClient.java
+* deleteClient.java
+
+
+## Installation and run:-
+### Openfire build and start server
+Inside folder openfire_src/build run following command 
+
+$ ant
+
+Now after successful build go to folder openfire_src/target/openfire/bin and run
+
+$ ./openfire.sh
+
+### Running Smack Client
+Inside Smack-master/smack-tcp/src/main/java/org/jivesoftware/smack/tcp/client run XMPPOpenfireConnection.java
+
+
