@@ -17,6 +17,7 @@ File Location:-
 Created new folder client in smack-tcp. Clients thread are running and service time for each client is noted to evaluate prformance. Clients are arriving according to Poisson Distribution.
 
 Folder Location:- smack-tcp/src/main/java/org/jivesoftware/smack/tcp/client
+
 Files added:- 
 * XMPPOpenfireConnection.java
 * abstractClientWrapper.java
