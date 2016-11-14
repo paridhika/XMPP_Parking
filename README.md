@@ -28,6 +28,13 @@ Files added:-
 
 
 ## Installation and run:-
+### Pre requisites 
+* Install ant to build openfire server and gradle to build smack client.
+* Install eclipse and import smack-core, smack-java7, smack-resolver-javax, smack-sasl-javax and smack-tcp projects.
+* Add smack-java7 as build dependency in smack-tcp.
+* Download org.apache.commons.math3 jar and add it as external jar to resolve errors
+* From terminal go inside each folder in the above sequence and run $ gradle eclipse build
+
 ### Openfire build and start server
 Inside folder openfire_src/build run following command 
 
@@ -36,6 +43,8 @@ $ ant
 Now after successful build go to folder openfire_src/target/openfire/bin and run
 
 $ ./openfire.sh
+
+Follow the steps in http://www.2daygeek.com/install-openfire-instant-messaging-server-on-ubuntu-centos-debian-fedora-mint-rhel-opensuse/# to "Configure openfile server" on the listening address displayed on terminal.
 
 ### Running Smack Client
 Inside Smack-master/smack-tcp/src/main/java/org/jivesoftware/smack/tcp/client run XMPPOpenfireConnection.java
