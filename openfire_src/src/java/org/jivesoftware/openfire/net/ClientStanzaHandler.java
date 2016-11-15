@@ -182,7 +182,7 @@ public class ClientStanzaHandler extends StanzaHandler {
 			packet.setBody("Available Location:" + location);
 		}
 		synchronized(AdminConsolePlugin.getMap()) {
-			printMap();
+		//	printMap();
 		}
 	}
 

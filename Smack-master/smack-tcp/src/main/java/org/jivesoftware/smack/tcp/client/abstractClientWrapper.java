@@ -21,7 +21,7 @@ public abstract class abstractClientWrapper {
 	private static int SIZE = 10;
 	protected static int count = 10;
 	protected String time[] = new String[2*count];
-	protected double mean_wait_time = 0.8;
+	protected double mean_wait_time = 1;
 	
 	public static void initializeEmptySet(){
 		for(int i = 0; i<SIZE; i++){
@@ -31,7 +31,7 @@ public abstract class abstractClientWrapper {
 		}
 	}
 	
-	protected void writeTocsvFile(FileWriter service_time, FileWriter result, double mean) throws IOException{
+	protected void writeTocsvFile(FileWriter service_time, FileWriter result, double mean,int count) throws IOException{
 		
 		//Write the CSV file header
 		double avg_service_time = 0;
@@ -59,7 +59,7 @@ public abstract class abstractClientWrapper {
 		result.append("\n");
 		result.append(String.valueOf(mean));
 		result.append(",");
-		result.append(String.valueOf(avg_service_time));
+		result.append(String.valueOf(avg_service_time/count));
 		result.append(",");
 		result.append(String.valueOf(count*3600/avg_service_time));
 		result.flush();

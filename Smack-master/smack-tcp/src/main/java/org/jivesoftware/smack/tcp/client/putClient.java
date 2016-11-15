@@ -22,7 +22,7 @@ import org.jivesoftware.smack.XMPPException;
 public class putClient extends abstractClientWrapper implements Runnable {
 	public void run() {
 		final ExecutorService service = Executors.newFixedThreadPool(1);
-		double mean = 1;
+		double mean = 0.93;
 		PoissonDistribution arrival_distribution = new PoissonDistribution(mean);
 		PoissonDistribution wait_distribution = new PoissonDistribution(mean_wait_time);
 		long wait = arrival_distribution.sample();
@@ -53,7 +53,7 @@ public class putClient extends abstractClientWrapper implements Runnable {
 		try {
 			FileWriter service_time = new FileWriter("put_simulation_service_time.csv");
 			FileWriter result = new FileWriter("put_simulation_result.csv");
-			writeTocsvFile(service_time, result,mean);
+			writeTocsvFile(service_time, result,mean,count);
 		} catch (IOException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
