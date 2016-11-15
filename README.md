@@ -32,7 +32,7 @@ Files added:-
 * Install ant to build openfire server and gradle to build smack client.
 * Install eclipse and import smack-core, smack-java7, smack-resolver-javax, smack-sasl-javax and smack-tcp projects.
 * Add smack-java7 as build dependency in smack-tcp.
-* Download org.apache.commons.math3 jar and add it as external jar to resolve errors
+* Add math3 jars present at Smack-master/Jars as external jar to resolve errors
 * From terminal go inside each folder in the above sequence and run $ gradle eclipse build
 
 ### Openfire build and start server
