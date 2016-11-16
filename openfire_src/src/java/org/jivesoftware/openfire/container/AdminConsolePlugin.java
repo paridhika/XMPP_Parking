@@ -69,7 +69,7 @@ import org.slf4j.LoggerFactory;
 public class AdminConsolePlugin implements Plugin {
 
     private static final Logger Log = LoggerFactory.getLogger(AdminConsolePlugin.class);
-    private static int SIZE = 10;
+    private static int SIZE = 100;
 	private static String[][] my_map = new String[SIZE][SIZE];
     /**
      * Random secret used by JVM to allow SSO. Only other cluster nodes can use this secret

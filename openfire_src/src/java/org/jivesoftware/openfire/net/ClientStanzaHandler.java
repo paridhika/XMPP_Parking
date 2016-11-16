@@ -50,7 +50,7 @@ import org.xmpp.packet.Presence;
 
 public class ClientStanzaHandler extends StanzaHandler {
 
-	private int SIZE = 10;
+	private int SIZE = 100;
 	public ClientStanzaHandler(PacketRouter router, Connection connection) {
 		super(router, connection);
 	}
