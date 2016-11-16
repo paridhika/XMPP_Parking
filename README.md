@@ -45,6 +45,7 @@ Now after successful build go to folder openfire_src/target/openfire/bin and run
 $ ./openfire.sh
 
 Follow the steps in http://www.2daygeek.com/install-openfire-instant-messaging-server-on-ubuntu-centos-debian-fedora-mint-rhel-opensuse/# to "Configure openfile server" on the listening address displayed on terminal.
+Activate required plugins to allow client interaction by going to plugin tabs and see list of Available Plugins.
 
 ### Running Smack Client
 Inside Smack-master/smack-tcp/src/main/java/org/jivesoftware/smack/tcp/client run XMPPOpenfireConnection.java
