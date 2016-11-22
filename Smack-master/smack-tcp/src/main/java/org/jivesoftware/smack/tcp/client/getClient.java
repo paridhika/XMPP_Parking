@@ -21,7 +21,7 @@ import org.jivesoftware.smack.XMPPException;
 public class getClient extends abstractClientWrapper implements Runnable {
 	public void run() {
 		final ExecutorService service = Executors.newFixedThreadPool(1);
-		double mean = 0.68;
+		double mean = 0.1;
 		PoissonDistribution p = new PoissonDistribution(mean);
 		long wait = p.sample();
 		int i = 0;
@@ -32,7 +32,8 @@ public class getClient extends abstractClientWrapper implements Runnable {
 				String call_return = task.get();
 				time[i] = call_return.substring(0, call_return.indexOf("\n"));
 				String location = call_return.substring(call_return.indexOf(":")+1);
-				empty_slots_list.remove(location);
+				if(empty_slots_list.contains(location))
+					empty_slots_list.remove(location);
 				PoissonDistribution wait_distribution = new PoissonDistribution(mean_wait_time);
 				long departure = wait_distribution.sample();
 				filled_slots_map.put((System.currentTimeMillis()/1000.0)+departure, location);

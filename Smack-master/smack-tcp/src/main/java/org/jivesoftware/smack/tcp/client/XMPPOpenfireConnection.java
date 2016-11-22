@@ -29,12 +29,12 @@ public class XMPPOpenfireConnection {
 		abstractClientWrapper.initializeEmptySet();
 		Thread putClient = new Thread(new putClient());
 		putClient.start();
-		Thread getClient = new Thread(new getClient());
-		getClient.start();
+		putClient.join();
+//		Thread getClient = new Thread(new getClient());
+//		getClient.start();
+//		getClient.join();
 		Thread deleteClient = new Thread(new deleteClient());
 		deleteClient.start();
-		putClient.join();
-		getClient.join();
 		deleteClient.join();
 	}
 

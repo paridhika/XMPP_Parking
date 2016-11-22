@@ -23,7 +23,7 @@ public class getClient extends abstractClientWrapper implements Runnable {
 	
 	public void run() {
 		final ExecutorService service = Executors.newFixedThreadPool(count);
-		double mean = 13.27;
+		double mean = 8.04;
 		PoissonDistribution p = new PoissonDistribution(mean);
 		long wait = p.sample();
 		int i = 0;

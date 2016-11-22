@@ -24,14 +24,14 @@ public class deleteClient extends abstractClientWrapper implements Runnable {
 		double mean_wait = 0;
 		int i = 0;		
 		final ExecutorService service = Executors.newFixedThreadPool(1);
-		while (i < 2*count) {
+		while (i < count) {
 			final Future<String> task;	
 			while(filled_slots_map.isEmpty()){
 				//wait
 			//	System.out.println("empty map");
 			}
 			Double start_time = filled_slots_map.firstKey();
-			while(start_time < System.currentTimeMillis()/1000){
+			while(start_time > System.currentTimeMillis()/1000){
 				//wait
 			//	System.out.println(System.currentTimeMillis()/1000);
 			}
@@ -53,7 +53,7 @@ public class deleteClient extends abstractClientWrapper implements Runnable {
 		try {
 			FileWriter service_time = new FileWriter("delete_simulation_service_time.csv");
 			FileWriter result = new FileWriter("delete_simulation_result.csv");
-			writeTocsvFile(service_time, result,mean_wait/(2*count),2*count);
+			writeTocsvFile(service_time, result,mean_wait/(count),count);
 		} catch (IOException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();

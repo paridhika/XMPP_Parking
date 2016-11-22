@@ -22,13 +22,17 @@ import org.jivesoftware.smack.XMPPException;
 public class putClient extends abstractClientWrapper implements Runnable {
 	public void run() {
 		final ExecutorService service = Executors.newFixedThreadPool(1);
-		double mean = 0.93;
+		double mean = 1000;
 		PoissonDistribution arrival_distribution = new PoissonDistribution(mean);
 		PoissonDistribution wait_distribution = new PoissonDistribution(mean_wait_time);
 		long wait = arrival_distribution.sample();
 		int i = 0;
 		while (i < count) {
-			String location = empty_slots_list.remove(0);
+			String location;
+			if(!empty_slots_list.isEmpty())
+				location = empty_slots_list.remove(0);
+			else
+				location = "0,0";
 			long departure = wait_distribution.sample();
 			filled_slots_map.put((System.currentTimeMillis()/1000.0)+departure, location);
 			try {

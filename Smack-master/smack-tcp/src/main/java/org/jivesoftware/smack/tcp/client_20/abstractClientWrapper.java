@@ -20,7 +20,7 @@ public abstract class abstractClientWrapper {
 	protected static List<String> empty_slots_list = Collections.synchronizedList(new ArrayList<String>());
 	private static int SIZE = 100;
 	protected static int count = 1000;
-	protected double mean_wait_time = 0.3;
+	protected double mean_wait_time = 1;
 	
 	public static void initializeEmptySet(){
 		for(int i = 0; i<SIZE; i++){

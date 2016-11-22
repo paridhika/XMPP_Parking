@@ -18,10 +18,10 @@ import java.util.TreeMap;
 public abstract class abstractClientWrapper {
 	protected static SortedMap<Double, String> filled_slots_map = Collections.synchronizedSortedMap(new TreeMap<Double, String>());
 	protected static List<String> empty_slots_list = Collections.synchronizedList(new ArrayList<String>());
-	private static int SIZE = 10;
-	protected static int count = 10;
+	private static int SIZE = 100;
+	protected static int count = 5;
 	protected String time[] = new String[2*count];
-	protected double mean_wait_time = 1;
+	protected double mean_wait_time = 3;
 	
 	public static void initializeEmptySet(){
 		for(int i = 0; i<SIZE; i++){
