@@ -2328,3 +2328,1302 @@ java.sql.SQLException: org.logicalcobwebs.proxool.ProxoolException: Attempt to r
 2016.11.19 13:22:15 org.ifsoft.rayo.RayoComponent - jCumulus stopping...
 2016.11.19 13:22:15 org.jivesoftware.openfire.XMPPServer - Openfire stopped
 2016.11.19 13:22:15 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.11.22 18:13:31 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.11.22 18:13:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.11.22 18:13:33 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.11.22 18:13:34 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.11.22 18:13:34 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Nov 22, 2016 6:13:34 PM]
+2016.11.22 18:13:35 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:13:36 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.11.22 18:13:36 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.11.22 18:13:36 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.11.22 18:13:36 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.11.22 18:13:36 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager -  Created TransportSessionManager
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Created MainInterceptor for GoJara Plugin.
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created DiscoIQRegisteredProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created IQRosterPayloadProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created NonPersistantProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created StatisticsProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created ClientToComponentUpdateProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created WhitelistProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created MucFilterProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created GojaraAdminProcessor
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager - Initializing Sessions.
+2016.11.22 18:13:38 org.jivesoftware.openfire.plugin.gojara.base.RemoteRosterPlugin - Started Gojara successfully. Currently running interceptors: 6
+2016.11.22 18:13:38 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.11.22 18:13:38 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.11.22 18:13:39 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.11.22 18:13:39 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.11.22 18:13:39 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.11.22 18:13:39 JmxWebPlugin - [jmxweb] starting jolokia
+2016.11.22 18:13:39 JmxWebPlugin - [jmxweb] starting hawtio
+2016.11.22 18:13:39 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.11.22 18:13:39 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.11.22 18:13:39 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.11.22 18:13:39 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.11.22 18:13:39 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.11.22 18:13:39 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.11.22 18:13:39 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.11.22 18:13:39 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.11.22 18:13:39 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.11.22 18:13:39 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.11.22 18:13:39 JmxWebPlugin - [jmxweb] started monitoring
+2016.11.22 18:13:42 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.11.22 18:13:43 org.voicebridge.Application - VoiceBridge logs /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/../../logs/
+2016.11.22 18:13:43 org.voicebridge.Config - VoiceBridge read site configuration
+2016.11.22 18:13:43 JAIN SIP 1.1 - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+2016.11.22 18:13:44 org.ifsoft.rayo.RayoPlugin - checkNatives./home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/lib
+2016.11.22 18:13:44 org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2016.11.22 18:13:44 org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2016.11.22 18:13:44 org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.paridhika-satellite-c55-c
+2016.11.22 18:13:44 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016.11.22 18:13:45 org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2016.11.22 18:13:45 org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2016.11.22 18:13:45 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:13:45 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:13:48 org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.11.22 18:13:49 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:13:49 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.11.22 18:13:49 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.11.22 18:13:49 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.11.22 18:13:49 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.11.22 18:16:20 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.11.22 18:21:32 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.11.22 18:21:32 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 0 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:32 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 1 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:32 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 2 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:33 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 3 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:33 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 4 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:33 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 5 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:33 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 6 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:34 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 7 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:34 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 8 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:34 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 9 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:35 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 10 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.util.JiveProperties.loadProperties(JiveProperties.java:357)
+	at org.jivesoftware.util.JiveProperties.init(JiveProperties.java:88)
+	at org.jivesoftware.util.JiveProperties.getInstance(JiveProperties.java:66)
+	at org.jivesoftware.util.JiveGlobals.getProperty(JiveGlobals.java:557)
+	at org.jivesoftware.util.cache.CacheFactory.<clinit>(CacheFactory.java:94)
+	at org.jivesoftware.openfire.XMPPServer.initialize(XMPPServer.java:332)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:440)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:35 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 0 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:35 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 1 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:35 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 2 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:36 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 3 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:36 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 4 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:36 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 5 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:36 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 6 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:37 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 7 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:37 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 8 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:37 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 9 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:37 org.jivesoftware.database.DbConnectionManager - Unable to get a connection from the database pool (attempt 10 out of 10).
+java.sql.SQLException: The database is already in use by another process: org.hsqldb.persist.NIOLockFile@81716f9[file =/home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/embedded-db/openfire.lck, exists=true, locked=false, valid=false, fl =null]: 
+	at org.hsqldb.jdbc.Util.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.jdbcConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbcDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbcDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.logicalcobwebs.proxool.DefaultConnectionBuilder.buildConnection(DefaultConnectionBuilder.java:39)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:159)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:211)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.jivesoftware.database.EmbeddedConnectionProvider.getConnection(EmbeddedConnectionProvider.java:65)
+	at org.jivesoftware.database.DbConnectionManager.getConnection(DbConnectionManager.java:129)
+	at org.jivesoftware.openfire.XMPPServer.verifyDataSource(XMPPServer.java:724)
+	at org.jivesoftware.openfire.XMPPServer.start(XMPPServer.java:448)
+	at org.jivesoftware.openfire.XMPPServer.<init>(XMPPServer.java:169)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.jivesoftware.openfire.starter.ServerStarter.start(ServerStarter.java:105)
+	at org.jivesoftware.openfire.starter.ServerStarter.main(ServerStarter.java:56)
+2016.11.22 18:21:38 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.11.22 18:21:46 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.11.22 18:21:46 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.11.22 18:21:46 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing conference.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:21:46 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.11.22 18:21:46 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.11.22 18:21:46 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.11.22 18:21:46 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.11.22 18:21:46 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.11.22 18:21:46 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.11.22 18:21:46 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.11.22 18:21:46 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.11.22 18:21:46 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.11.22 18:21:46 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.11.22 18:21:46 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing broadcast.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:21:46 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing updater.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:21:46 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing manager.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:21:46 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing workgroup.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:21:46 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Freezing GoJara Maininterceptor.
+2016.11.22 18:21:46 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.11.22 18:21:46 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.11.22 18:21:46 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.11.22 18:21:46 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.11.22 18:21:46 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.11.22 18:21:46 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.11.22 18:21:46 org.voicebridge.Application - VoiceBridge stopping
+2016.11.22 18:21:46 org.ifsoft.rayo.RayoComponent - RayoComponent shutdown 
+2016.11.22 18:21:46 org.ifsoft.rayo.RayoComponent - jCumulus stopping...
+2016.11.22 18:21:46 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.11.22 18:21:46 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.11.22 18:25:59 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.11.22 18:26:00 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.11.22 18:26:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.11.22 18:26:01 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.11.22 18:26:01 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.11.22 18:26:01 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Nov 22, 2016 6:26:01 PM]
+2016.11.22 18:26:03 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:26:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.11.22 18:26:03 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.11.22 18:26:03 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.11.22 18:26:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.11.22 18:26:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager -  Created TransportSessionManager
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Created MainInterceptor for GoJara Plugin.
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created DiscoIQRegisteredProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created IQRosterPayloadProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created NonPersistantProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created StatisticsProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created ClientToComponentUpdateProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created WhitelistProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created MucFilterProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created GojaraAdminProcessor
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager - Initializing Sessions.
+2016.11.22 18:26:05 org.jivesoftware.openfire.plugin.gojara.base.RemoteRosterPlugin - Started Gojara successfully. Currently running interceptors: 6
+2016.11.22 18:26:05 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.11.22 18:26:06 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.11.22 18:26:07 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.11.22 18:26:07 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.11.22 18:26:07 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.11.22 18:26:07 JmxWebPlugin - [jmxweb] starting jolokia
+2016.11.22 18:26:07 JmxWebPlugin - [jmxweb] starting hawtio
+2016.11.22 18:26:07 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.11.22 18:26:07 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.11.22 18:26:07 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.11.22 18:26:07 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.11.22 18:26:07 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.11.22 18:26:07 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.11.22 18:26:07 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.11.22 18:26:07 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.11.22 18:26:07 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.11.22 18:26:07 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.11.22 18:26:07 JmxWebPlugin - [jmxweb] started monitoring
+2016.11.22 18:26:11 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.11.22 18:26:13 org.voicebridge.Application - VoiceBridge logs /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/../../logs/
+2016.11.22 18:26:13 org.voicebridge.Config - VoiceBridge read site configuration
+2016.11.22 18:26:14 JAIN SIP 1.1 - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+2016.11.22 18:26:15 org.ifsoft.rayo.RayoPlugin - checkNatives./home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/lib
+2016.11.22 18:26:15 org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2016.11.22 18:26:15 org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2016.11.22 18:26:15 org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.paridhika-satellite-c55-c
+2016.11.22 18:26:15 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016.11.22 18:26:16 org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2016.11.22 18:26:16 org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2016.11.22 18:26:16 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:26:16 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:26:20 org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.11.22 18:26:20 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:26:20 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.11.22 18:26:20 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.11.22 18:26:20 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.11.22 18:26:20 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.11.22 18:28:36 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.11.22 18:30:36 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.11.22 18:30:36 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.11.22 18:30:36 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing conference.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:30:36 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.11.22 18:30:36 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.11.22 18:30:36 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.11.22 18:30:36 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.11.22 18:30:36 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.11.22 18:30:36 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.11.22 18:30:36 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.11.22 18:30:36 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.11.22 18:30:36 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.11.22 18:30:36 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.11.22 18:30:36 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing broadcast.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:30:36 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing updater.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:30:36 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing manager.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:30:36 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing workgroup.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:30:36 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Freezing GoJara Maininterceptor.
+2016.11.22 18:30:36 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.11.22 18:30:36 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.11.22 18:30:36 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.11.22 18:30:36 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.11.22 18:30:36 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.11.22 18:30:36 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.11.22 18:30:36 org.voicebridge.Application - VoiceBridge stopping
+2016.11.22 18:30:36 org.ifsoft.rayo.RayoComponent - RayoComponent shutdown 
+2016.11.22 18:30:36 org.ifsoft.rayo.RayoComponent - jCumulus stopping...
+2016.11.22 18:30:37 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.11.22 18:30:37 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.11.22 18:33:00 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.11.22 18:33:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.11.22 18:33:01 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.11.22 18:33:01 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.11.22 18:33:01 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Nov 22, 2016 6:33:01 PM]
+2016.11.22 18:33:01 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:33:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.11.22 18:33:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.11.22 18:33:02 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.11.22 18:33:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.11.22 18:33:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager -  Created TransportSessionManager
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Created MainInterceptor for GoJara Plugin.
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created DiscoIQRegisteredProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created IQRosterPayloadProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created NonPersistantProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created StatisticsProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created ClientToComponentUpdateProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created WhitelistProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created MucFilterProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created GojaraAdminProcessor
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager - Initializing Sessions.
+2016.11.22 18:33:02 org.jivesoftware.openfire.plugin.gojara.base.RemoteRosterPlugin - Started Gojara successfully. Currently running interceptors: 6
+2016.11.22 18:33:02 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] starting jolokia
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] starting hawtio
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.11.22 18:33:03 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.11.22 18:33:03 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.11.22 18:33:03 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.11.22 18:33:03 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.11.22 18:33:03 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.11.22 18:33:03 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.11.22 18:33:03 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.11.22 18:33:03 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.11.22 18:33:03 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.11.22 18:33:03 JmxWebPlugin - [jmxweb] started monitoring
+2016.11.22 18:33:04 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.11.22 18:33:05 org.voicebridge.Application - VoiceBridge logs /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/../../logs/
+2016.11.22 18:33:05 org.voicebridge.Config - VoiceBridge read site configuration
+2016.11.22 18:33:05 JAIN SIP 1.1 - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+2016.11.22 18:33:05 org.ifsoft.rayo.RayoPlugin - checkNatives./home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/lib
+2016.11.22 18:33:05 org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2016.11.22 18:33:05 org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2016.11.22 18:33:06 org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.paridhika-satellite-c55-c
+2016.11.22 18:33:06 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016.11.22 18:33:06 org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2016.11.22 18:33:06 org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2016.11.22 18:33:06 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:33:06 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:33:08 org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2016.11.22 18:33:08 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.11.22 18:33:08 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.11.22 18:33:08 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.11.22 18:33:09 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.11.22 18:33:09 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.11.22 18:33:09 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.11.22 18:33:09 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.11.22 18:33:09 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:33:09 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.11.22 18:33:09 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.11.22 18:33:09 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.11.22 18:33:09 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.11.22 18:33:17 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.11.22 18:41:24 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.11.22 18:41:24 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.11.22 18:41:24 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing conference.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:41:24 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.11.22 18:41:24 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.11.22 18:41:24 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.11.22 18:41:24 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.11.22 18:41:24 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.11.22 18:41:24 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.11.22 18:41:24 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.11.22 18:41:24 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.11.22 18:41:24 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.11.22 18:41:24 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.11.22 18:41:24 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing broadcast.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:41:24 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing updater.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:41:24 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing manager.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:41:24 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing workgroup.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:41:24 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Freezing GoJara Maininterceptor.
+2016.11.22 18:41:24 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.11.22 18:41:24 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.11.22 18:41:24 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.11.22 18:41:24 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.11.22 18:41:24 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.11.22 18:41:24 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.11.22 18:41:24 org.voicebridge.Application - VoiceBridge stopping
+2016.11.22 18:41:24 org.ifsoft.rayo.RayoComponent - RayoComponent shutdown 
+2016.11.22 18:41:24 org.ifsoft.rayo.RayoComponent - jCumulus stopping...
+2016.11.22 18:41:25 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.11.22 18:41:25 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.11.22 18:44:30 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.11.22 18:44:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.11.22 18:44:32 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.11.22 18:44:32 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.11.22 18:44:32 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Nov 22, 2016 6:44:32 PM]
+2016.11.22 18:44:32 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:44:32 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.11.22 18:44:32 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.11.22 18:44:32 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.11.22 18:44:32 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.11.22 18:44:32 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager -  Created TransportSessionManager
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Created MainInterceptor for GoJara Plugin.
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created DiscoIQRegisteredProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created IQRosterPayloadProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created NonPersistantProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created StatisticsProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created ClientToComponentUpdateProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created WhitelistProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created MucFilterProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created GojaraAdminProcessor
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager - Initializing Sessions.
+2016.11.22 18:44:33 org.jivesoftware.openfire.plugin.gojara.base.RemoteRosterPlugin - Started Gojara successfully. Currently running interceptors: 6
+2016.11.22 18:44:33 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] starting jolokia
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] starting hawtio
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.11.22 18:44:33 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.11.22 18:44:33 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.11.22 18:44:33 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.11.22 18:44:33 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.11.22 18:44:33 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.11.22 18:44:33 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.11.22 18:44:33 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.11.22 18:44:33 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.11.22 18:44:33 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.11.22 18:44:33 JmxWebPlugin - [jmxweb] started monitoring
+2016.11.22 18:44:35 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.11.22 18:44:35 org.voicebridge.Application - VoiceBridge logs /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/../../logs/
+2016.11.22 18:44:35 org.voicebridge.Config - VoiceBridge read site configuration
+2016.11.22 18:44:35 JAIN SIP 1.1 - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+2016.11.22 18:44:36 org.ifsoft.rayo.RayoPlugin - checkNatives./home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/lib
+2016.11.22 18:44:36 org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2016.11.22 18:44:36 org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2016.11.22 18:44:36 org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.paridhika-satellite-c55-c
+2016.11.22 18:44:36 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016.11.22 18:44:36 org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2016.11.22 18:44:37 org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2016.11.22 18:44:37 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:44:37 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:44:39 org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2016.11.22 18:44:39 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.11.22 18:44:39 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.11.22 18:44:39 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.11.22 18:44:40 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.11.22 18:44:40 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.11.22 18:44:40 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.11.22 18:44:40 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.11.22 18:44:40 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:44:40 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.11.22 18:44:40 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.11.22 18:44:40 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.11.22 18:44:40 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.11.22 18:44:41 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.11.22 18:49:59 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.11.22 18:49:59 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.11.22 18:49:59 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing conference.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:49:59 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.11.22 18:49:59 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.11.22 18:49:59 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.11.22 18:49:59 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.11.22 18:49:59 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.11.22 18:49:59 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.11.22 18:49:59 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.11.22 18:49:59 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.11.22 18:49:59 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.11.22 18:49:59 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.11.22 18:49:59 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing broadcast.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:49:59 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing updater.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:49:59 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing manager.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:50:00 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing workgroup.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:50:00 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Freezing GoJara Maininterceptor.
+2016.11.22 18:50:00 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.11.22 18:50:00 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.11.22 18:50:00 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.11.22 18:50:00 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.11.22 18:50:00 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.11.22 18:50:00 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.11.22 18:50:00 org.voicebridge.Application - VoiceBridge stopping
+2016.11.22 18:50:00 org.ifsoft.rayo.RayoComponent - RayoComponent shutdown 
+2016.11.22 18:50:00 org.ifsoft.rayo.RayoComponent - jCumulus stopping...
+2016.11.22 18:50:00 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.11.22 18:50:00 org.jivesoftware.openfire.XMPPServer - Server halted
+2016.11.22 18:52:48 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Servers Cache
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Components Cache
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing Users Cache
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing AnonymousUsers Cache
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Routing User Sessions
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Roster
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Multicast Service
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Message Size
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for VCard
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Privacy Lists
+2016.11.22 18:52:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer Cache
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Offline Presence Cache
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Last Activity Cache
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Components Sessions
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Connection Managers Sessions
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Incoming Server Sessions
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Sessions by Hostname
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Validated Domains
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Client Session Info Cache
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Entity Capabilities Users
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Directed Presences
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created local-only cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for PEPServiceManager
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for File Transfer
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Published Items
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Features
+2016.11.22 18:52:49 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Disco Server Items
+2016.11.22 18:52:49 org.jivesoftware.openfire.pubsub.PubSubModule - Publish-Subscribe domain: pubsub.paridhika-satellite-c55-c
+2016.11.22 18:52:49 org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Multi User Chat domain: conference.paridhika-satellite-c55-c
+2016.11.22 18:52:49 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.3 [Nov 22, 2016 6:52:49 PM]
+2016.11.22 18:52:49 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:52:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.11.22 18:52:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.11.22 18:52:50 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at:
+  http://paridhika-satellite-c55-c:9090
+  https://paridhika-satellite-c55-c:9091
+2016.11.22 18:52:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group
+2016.11.22 18:52:50 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Group Metadata Cache
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager -  Created TransportSessionManager
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Created MainInterceptor for GoJara Plugin.
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created DiscoIQRegisteredProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created IQRosterPayloadProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created NonPersistantProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created StatisticsProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created ClientToComponentUpdateProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created WhitelistProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created MucFilterProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.messagefilter.processors.AbstractRemoteRosterProcessor - Created GojaraAdminProcessor
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.sessions.TransportSessionManager - Initializing Sessions.
+2016.11.22 18:52:50 org.jivesoftware.openfire.plugin.gojara.base.RemoteRosterPlugin - Started Gojara successfully. Currently running interceptors: 6
+2016.11.22 18:52:50 org.jinglenodes.JingleNodesPlugin - Jingle Nodes Loaded.
+2016.11.22 18:52:50 JmxWebPlugin - [jmxweb] initialize jmxweb plugin resources
+2016.11.22 18:52:50 JmxWebPlugin - [jmxweb] .. started openfire server detector.
+2016.11.22 18:52:50 JmxWebPlugin - [jmxweb] .. started stanza counter.
+2016.11.22 18:52:50 JmxWebPlugin - [jmxweb] .. started database pool monitor.
+2016.11.22 18:52:50 JmxWebPlugin - [jmxweb] starting jolokia
+2016.11.22 18:52:50 JmxWebPlugin - [jmxweb] starting hawtio
+2016.11.22 18:52:50 JmxWebPlugin - [jmxweb] starting email monitoring
+2016.11.22 18:52:51 org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016.11.22 18:52:51 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: pool-3-thread-1
+2016.11.22 18:52:51 org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016.11.22 18:52:51 org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2016.11.22 18:52:51 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2016.11.22 18:52:51 org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016.11.22 18:52:51 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016.11.22 18:52:51 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2016.11.22 18:52:51 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016.11.22 18:52:51 JmxWebPlugin - [jmxweb] started monitoring
+2016.11.22 18:52:52 org.ifsoft.nodejs.openfire.PluginImpl - checkNatives node executable path /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/nodejs/native/linux-64/node
+2016.11.22 18:52:52 org.voicebridge.Application - VoiceBridge logs /home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/../../logs/
+2016.11.22 18:52:52 org.voicebridge.Config - VoiceBridge read site configuration
+2016.11.22 18:52:52 JAIN SIP 1.1 - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+2016.11.22 18:52:53 org.ifsoft.rayo.RayoPlugin - checkNatives./home/paridhika/git/XMPP_Parking/openfire_src/target/openfire/plugins/rayo/lib
+2016.11.22 18:52:53 org.ifsoft.rayo.RayoPlugin - Native lib folder already exist.
+2016.11.22 18:52:53 org.ifsoft.rayo.RayoPlugin - Rayo Plugin Loaded.
+2016.11.22 18:52:53 org.ifsoft.rayo.RayoComponent - RayoComponent initialize rayo.paridhika-satellite-c55-c
+2016.11.22 18:52:53 org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016.11.22 18:52:53 org.ifsoft.rayo.RayoComponent - Starting jCumulus.....
+2016.11.22 18:52:53 org.ifsoft.rayo.RayoComponent - Listening on 1935 port
+2016.11.22 18:52:53 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.contact.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:52:53 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing registration.notification.enabled.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 18:52:56 org.jivesoftware.openfire.websocket.WebSocketPlugin - Initializing websocket plugin
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+2016.11.22 18:52:56 org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+2016.11.22 18:52:57 /jolokia - jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+2016.11.22 18:52:57 org.jivesoftware.openfire.http.HttpBindManager - Installed response compression filter
+2016.11.22 18:52:57 org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+2016.11.22 18:52:57 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+2016.11.22 18:53:04 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Locked Out Accounts
+2016.11.22 19:09:25 org.jivesoftware.openfire.XMPPServer - Shutting down 50 modules ...
+2016.11.22 19:09:25 org.jivesoftware.openfire.pubsub.PubSubPersistenceManager - Flushing write cache to database
+2016.11.22 19:09:25 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing conference.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 19:09:25 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Stopped.
+2016.11.22 19:09:25 org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Stopped.
+2016.11.22 19:09:25 org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Stopped.
+2016.11.22 19:09:25 org.jivesoftware.openfire.spi.ConnectionListener[component] - Stopped.
+2016.11.22 19:09:25 org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Stopped.
+2016.11.22 19:09:25 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Stopped.
+2016.11.22 19:09:25 org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Stopped.
+2016.11.22 19:09:25 org.jivesoftware.openfire.http.HttpSessionManager - Stopping instance
+2016.11.22 19:09:25 org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service stopped
+2016.11.22 19:09:25 org.jivesoftware.openfire.XMPPServer - Shutting down plugins ...
+2016.11.22 19:09:25 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing broadcast.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 19:09:25 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing updater.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 19:09:25 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing manager.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 19:09:25 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Removing workgroup.paridhika-satellite-c55-c from watched Transports.
+2016.11.22 19:09:25 org.jivesoftware.openfire.plugin.gojara.messagefilter.MainInterceptor - Freezing GoJara Maininterceptor.
+2016.11.22 19:09:25 JmxWebPlugin - [jmxweb] destroy jmxweb plugin resources
+2016.11.22 19:09:25 JmxWebPlugin:EmailScheduler - Email Monitoring Stopped
+2016.11.22 19:09:25 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016.11.22 19:09:25 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016.11.22 19:09:25 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016.11.22 19:09:25 JmxWebPlugin - [jmxweb]  plugin fully destroyed.
+2016.11.22 19:09:25 org.voicebridge.Application - VoiceBridge stopping
+2016.11.22 19:09:25 org.ifsoft.rayo.RayoComponent - RayoComponent shutdown 
+2016.11.22 19:09:25 org.ifsoft.rayo.RayoComponent - jCumulus stopping...
+2016.11.22 19:09:25 org.jivesoftware.openfire.XMPPServer - Openfire stopped
+2016.11.22 19:09:25 org.jivesoftware.openfire.XMPPServer - Server halted

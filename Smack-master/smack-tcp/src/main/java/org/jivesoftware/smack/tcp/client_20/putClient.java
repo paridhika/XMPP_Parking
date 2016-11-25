@@ -23,7 +23,7 @@ public class putClient extends abstractClientWrapper implements Runnable {
 	protected String time[] = new String[count];
 	public void run() {
 		final ExecutorService service = Executors.newFixedThreadPool(count);
-		double mean = 1.85;
+		double mean = 2;
 		PoissonDistribution arrival_distribution = new PoissonDistribution(mean);
 		PoissonDistribution wait_distribution = new PoissonDistribution(mean_wait_time);
 		long wait = arrival_distribution.sample();
